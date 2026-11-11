@@ -1,0 +1,9 @@
+Obtain the ROBOTIS original actuator STEP downloads from the published drawing pages.
+Put the X430 assembly with horn and idler in this directory as X430.step.
+Put the XC330 assembly in this directory as XC330.step. Other industry CAD formats and revision-specific topology may require adapting the two motor import routines.
+https://www.robotis.com/service/download.php?no=158
+https://www.robotis.com/service/download.php?no=1987
+
+X430.step SHA-256 7ff4e39475245d5c1fc4f703e9241fca1a09d57aed920274498dbe2cd5e31e22
+
+XC330.step SHA-256 e2f7b060801a1d6a21f23bca2554f29a402f7d73b8498cb201c9e6adf3139eb6

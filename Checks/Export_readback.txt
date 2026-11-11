@@ -1,0 +1,9 @@
+Frozen CAD exchange and manufacturing geometry checks
+
+The full STEP reimported with 115 named component occurrences. Each isolated arm reimported with 52. The two trigger endpoint STEP files reimported with seven occurrences each. A component occurrence can contain several standard screws or sub-solids. Reimported whole and single-arm STEP centroids differed from their intended transformed solid centroids by less than 0.00014 mm.
+
+The native FreeCAD document saved and reopened with all 115 component placements intact. Editing both elbow joints and both trigger joints independently moved their downstream solids in the reopened document.
+
+All 17 distinct production STL meshes reopened as single closed manifolds. Their volume differed from the corresponding analytic CAD solid by less than 0.6%. Individual printed part STEPs and custom stock STEPs passed single-solid validity and volume readback. Total print quantity is 28 pieces. Four identical mast sleeves share one stock file.
+
+The geometry used for assembly export and the whole-assembly collision check was matched across all 115 named occurrences using SHA-256. Nominal CAD file tolerances are independent of print, machining and servo manufacturing tolerances.

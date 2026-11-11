@@ -1,0 +1,99 @@
+Side,Nominal CAD component or allowance,Moving group,Light mass g,Nominal mass g,Heavy mass g,Reference/assumed CoM x mm,y mm,z mm,Assumption
+Left,J02_XM430_horn,1,1.8756,1.9182,1.9892,-0.0,0.0,7.06992,aluminum drive horn in fixed shoulder motor
+Left,J06_Shouldered_output_spindle,1,39.1616,40.2039,41.693,0.0,0.0,27.84919,aluminum stock
+Left,J09_Inner_spacer,1,1.0224,1.0496,1.0885,0.0,-0.0,24.5,aluminum stock
+Left,J10_Inner_thrust_shim,1,0.1197,0.1221,0.1244,-0.0,-0.0,14.9,steel item from solid volume
+Left,J11_25mm_circlip_envelope,1,4.5021,4.5898,4.6775,0.0,-0.45961,14.2,steel item from solid volume
+Left,J15_Horn_M2x5,1,1.1824,1.2055,1.2285,0.0,-0.0,10.06792,steel item from solid volume
+Left,J16_Outboard_flange_M3x10,1,4.3724,4.4576,4.5427,-0.0,0.0,46.26349,steel item from solid volume
+Left,L1_Shoulder_neck,1,6.0279,9.8533,14.3742,-2.8087,0.13981,60.81796,assumed printed polymer effective density
+Left,L2_Upper_fork,2,7.3581,12.0277,17.5463,11.61255,-6.74912,140.3604,assumed printed polymer effective density
+Left,L2_Upper_service_cheek,2,2.1614,3.5331,5.1541,11.75816,23.2846,110.42544,assumed printed polymer effective density
+Left,L4_Elbow_fork,4,6.3097,10.314,15.0463,11.40275,-7.53794,325.85645,assumed printed polymer effective density
+Left,L4_Elbow_service_cheek,4,2.1452,3.5066,5.1155,11.93549,23.34124,302.44229,assumed printed polymer effective density
+Left,L3_Upper_bone,3,8.5647,14.0,20.4235,-1.92244,-0.45662,238.58298,assumed printed polymer effective density
+Left,L5_Forearm_bone,5,8.3748,13.6896,19.9707,8.39568,-22.86106,413.027,assumed printed polymer effective density
+Left,L6_Wrist_saddle,6,2.531,4.1372,6.0355,6.17733,-0.98505,458.445,assumed printed polymer effective density
+Left,M2_XM430_case,1,80.0,80.0,80.0,-5.97148,1.83903,94.01901,"manufacturer mass allocated to servo/horn groups, ROBOTIS published center relative to the horn face"
+Left,M2_XM430_drive_horn,2,2.0,2.0,2.0,9.75,18.56743,94.445,manufacturer mass allocated to servo/horn groups
+Left,M2_XM430_idler,2,2.16,2.16,2.16,9.75,-17.38474,94.445,manufacturer mass allocated to servo/horn groups
+Left,M3_XC330_case,2,22.0,22.0,22.0,9.7549,-7.53297,177.69959,manufacturer mass allocated to servo/horn groups
+Left,M3_XC330_horn,3,1.0,1.0,1.0,9.75,-0.00304,189.98457,manufacturer mass allocated to servo/horn groups
+Left,M4_XM430_case,3,80.0,80.0,80.0,-5.97148,1.83903,286.09401,"manufacturer mass allocated to servo/horn groups, ROBOTIS published center relative to the horn face"
+Left,M4_XM430_drive_horn,4,2.0,2.0,2.0,9.75,18.56743,286.52,manufacturer mass allocated to servo/horn groups
+Left,M4_XM430_idler,4,2.16,2.16,2.16,9.75,-17.38474,286.52,manufacturer mass allocated to servo/horn groups
+Left,M5_XC330_case,4,22.0,22.0,22.0,9.7549,-7.53297,358.69959,manufacturer mass allocated to servo/horn groups
+Left,M5_XC330_horn,5,1.0,1.0,1.0,9.75,-0.00304,370.98457,manufacturer mass allocated to servo/horn groups
+Left,M6_XC330_case,5,22.0,22.0,22.0,9.7451,-34.30041,450.91203,manufacturer mass allocated to servo/horn groups
+Left,M6_XC330_horn,6,1.0,1.0,1.0,9.75,-22.01543,458.44196,manufacturer mass allocated to servo/horn groups
+Left,M7_XC330_case,6,22.0,22.0,22.0,18.44959,7.53297,458.4499,manufacturer mass allocated to servo/horn groups
+Left,M7_XC330_horn,7,1.0,1.0,1.0,30.73457,0.00304,458.445,manufacturer mass allocated to servo/horn groups
+Left,F1_Exterior_fasteners,1,1.6,1.6,1.6,-6.25,0.0,74.745,designer fastener mass allowance
+Left,F2_Exterior_fasteners,2,7.0,7.0,7.0,12.95262,16.83883,124.71022,designer fastener mass allowance
+Left,F3_Exterior_fasteners,3,2.6,2.6,2.6,-0.73882,0.0,242.78782,designer fastener mass allowance
+Left,F4_Exterior_fasteners,4,7.0,7.0,7.0,12.95262,16.83883,315.41183,designer fastener mass allowance
+Left,F5_Exterior_fasteners,5,2.1,2.1,2.1,9.75,-25.525,414.4975,designer fastener mass allowance
+Left,F6_Exterior_fasteners,6,2.1,2.1,2.1,5.725,-3.725,458.445,designer fastener mass allowance
+Left,Left_FACTR_palm,7,25.6225,27.3509,51.855,-4.93641,4.5456,513.66695,published handle reference scaled for print variation
+Left,Left_FACTR_trigger,8,3.0882,4.6838,5.8913,4.60434,-15.55562,544.93718,published trigger reference with print variation
+Left,Left_J8_XC330_T288T_case,7,22.0,22.0,22.0,27.7549,-0.19959,528.41203,ROBOTIS XC330-T288 mass
+Left,Left_J8_XC330_T288T_horn,8,1.0,1.0,1.0,27.75,-12.48457,535.94196,servo case and moving horn contribute 23 g in total
+Left,Left_J7_grip_screws,7,1.1744,1.1973,1.2201,35.39673,0.0,458.445,steel item from solid volume
+Left,Left_J8_case_screws,7,1.3702,1.3969,1.4236,27.75,12.63174,528.445,steel item from solid volume
+Left,Left_J8_trigger_screws,8,1.3702,1.3969,1.4236,27.75,-16.63174,535.945,steel item from solid volume
+Left,Unmodeled wire and small fixings allowance,1,0,3,6,9.75,0.0,94.445,distributed at seven downstream joints
+Left,Unmodeled wire and small fixings allowance,2,0,3,6,9.75,0.0,192.0,distributed at seven downstream joints
+Left,Unmodeled wire and small fixings allowance,3,0,3,6,9.75,0.0,286.52,distributed at seven downstream joints
+Left,Unmodeled wire and small fixings allowance,4,0,3,6,9.75,0.0,373.0,distributed at seven downstream joints
+Left,Unmodeled wire and small fixings allowance,5,0,3,6,9.75,0.0,458.445,distributed at seven downstream joints
+Left,Unmodeled wire and small fixings allowance,6,0,3,6,32.75,0.0,458.445,distributed at seven downstream joints
+Left,Unmodeled wire and small fixings allowance,7,0,3,6,27.75,-14.5,535.945,distributed at seven downstream joints
+Right,J02_XM430_horn,1,1.8756,1.9182,1.9892,-0.0,0.0,7.06992,aluminum drive horn in fixed shoulder motor
+Right,J06_Shouldered_output_spindle,1,39.1616,40.2039,41.693,0.0,0.0,27.84919,aluminum stock
+Right,J09_Inner_spacer,1,1.0224,1.0496,1.0885,0.0,-0.0,24.5,aluminum stock
+Right,J10_Inner_thrust_shim,1,0.1197,0.1221,0.1244,-0.0,-0.0,14.9,steel item from solid volume
+Right,J11_25mm_circlip_envelope,1,4.5021,4.5898,4.6775,0.0,-0.45961,14.2,steel item from solid volume
+Right,J15_Horn_M2x5,1,1.1824,1.2055,1.2285,0.0,-0.0,10.06792,steel item from solid volume
+Right,J16_Outboard_flange_M3x10,1,4.3724,4.4576,4.5427,-0.0,0.0,46.26349,steel item from solid volume
+Right,L1_Shoulder_neck,1,6.0279,9.8533,14.3742,-2.8087,0.13981,60.81796,assumed printed polymer effective density
+Right,L2_Upper_fork,2,7.3581,12.0277,17.5463,11.61255,-6.74912,140.3604,assumed printed polymer effective density
+Right,L2_Upper_service_cheek,2,2.1614,3.5331,5.1541,11.75816,23.2846,110.42544,assumed printed polymer effective density
+Right,L4_Elbow_fork,4,6.3097,10.314,15.0463,11.40275,-7.53794,325.85645,assumed printed polymer effective density
+Right,L4_Elbow_service_cheek,4,2.1452,3.5066,5.1155,11.93549,23.34124,302.44229,assumed printed polymer effective density
+Right,L3_Upper_bone,3,8.5647,14.0,20.4235,-1.92244,-0.45662,238.58298,assumed printed polymer effective density
+Right,L5_Forearm_bone,5,8.3748,13.6896,19.9707,8.39568,-22.86106,413.027,assumed printed polymer effective density
+Right,L6_Wrist_saddle,6,2.531,4.1372,6.0355,6.17733,-0.98505,458.445,assumed printed polymer effective density
+Right,M2_XM430_case,1,80.0,80.0,80.0,-5.97148,1.83903,94.01901,"manufacturer mass allocated to servo/horn groups, ROBOTIS published center relative to the horn face"
+Right,M2_XM430_drive_horn,2,2.0,2.0,2.0,9.75,18.56743,94.445,manufacturer mass allocated to servo/horn groups
+Right,M2_XM430_idler,2,2.16,2.16,2.16,9.75,-17.38474,94.445,manufacturer mass allocated to servo/horn groups
+Right,M3_XC330_case,2,22.0,22.0,22.0,9.7549,-7.53297,177.69959,manufacturer mass allocated to servo/horn groups
+Right,M3_XC330_horn,3,1.0,1.0,1.0,9.75,-0.00304,189.98457,manufacturer mass allocated to servo/horn groups
+Right,M4_XM430_case,3,80.0,80.0,80.0,-5.97148,1.83903,286.09401,"manufacturer mass allocated to servo/horn groups, ROBOTIS published center relative to the horn face"
+Right,M4_XM430_drive_horn,4,2.0,2.0,2.0,9.75,18.56743,286.52,manufacturer mass allocated to servo/horn groups
+Right,M4_XM430_idler,4,2.16,2.16,2.16,9.75,-17.38474,286.52,manufacturer mass allocated to servo/horn groups
+Right,M5_XC330_case,4,22.0,22.0,22.0,9.7549,-7.53297,358.69959,manufacturer mass allocated to servo/horn groups
+Right,M5_XC330_horn,5,1.0,1.0,1.0,9.75,-0.00304,370.98457,manufacturer mass allocated to servo/horn groups
+Right,M6_XC330_case,5,22.0,22.0,22.0,9.7451,-34.30041,450.91203,manufacturer mass allocated to servo/horn groups
+Right,M6_XC330_horn,6,1.0,1.0,1.0,9.75,-22.01543,458.44196,manufacturer mass allocated to servo/horn groups
+Right,M7_XC330_case,6,22.0,22.0,22.0,18.44959,7.53297,458.4499,manufacturer mass allocated to servo/horn groups
+Right,M7_XC330_horn,7,1.0,1.0,1.0,30.73457,0.00304,458.445,manufacturer mass allocated to servo/horn groups
+Right,F1_Exterior_fasteners,1,1.6,1.6,1.6,-6.25,0.0,74.745,designer fastener mass allowance
+Right,F2_Exterior_fasteners,2,7.0,7.0,7.0,12.95262,16.83883,124.71022,designer fastener mass allowance
+Right,F3_Exterior_fasteners,3,2.6,2.6,2.6,-0.73882,0.0,242.78782,designer fastener mass allowance
+Right,F4_Exterior_fasteners,4,7.0,7.0,7.0,12.95262,16.83883,315.41183,designer fastener mass allowance
+Right,F5_Exterior_fasteners,5,2.1,2.1,2.1,9.75,-25.525,414.4975,designer fastener mass allowance
+Right,F6_Exterior_fasteners,6,2.1,2.1,2.1,5.725,-3.725,458.445,designer fastener mass allowance
+Right,Right_FACTR_palm,7,25.6225,27.3509,51.855,-4.93641,-4.5456,513.66695,published handle reference scaled for print variation
+Right,Right_FACTR_trigger,8,3.0882,4.6838,5.8913,4.60434,15.55562,544.93718,published trigger reference with print variation
+Right,Right_J8_XC330_T288T_case,7,22.0,22.0,22.0,27.7451,0.19959,528.41203,ROBOTIS XC330-T288 mass
+Right,Right_J8_XC330_T288T_horn,8,1.0,1.0,1.0,27.75,12.48457,535.94196,servo case and moving horn contribute 23 g in total
+Right,Right_J7_grip_screws,7,1.1744,1.1973,1.2201,35.39673,-0.0,458.445,steel item from solid volume
+Right,Right_J8_case_screws,7,1.3702,1.3969,1.4236,27.75,-12.63174,528.445,steel item from solid volume
+Right,Right_J8_trigger_screws,8,1.3702,1.3969,1.4236,27.75,16.63174,535.945,steel item from solid volume
+Right,Unmodeled wire and small fixings allowance,1,0,3,6,9.75,0.0,94.445,distributed at seven downstream joints
+Right,Unmodeled wire and small fixings allowance,2,0,3,6,9.75,0.0,192.0,distributed at seven downstream joints
+Right,Unmodeled wire and small fixings allowance,3,0,3,6,9.75,0.0,286.52,distributed at seven downstream joints
+Right,Unmodeled wire and small fixings allowance,4,0,3,6,9.75,0.0,373.0,distributed at seven downstream joints
+Right,Unmodeled wire and small fixings allowance,5,0,3,6,9.75,0.0,458.445,distributed at seven downstream joints
+Right,Unmodeled wire and small fixings allowance,6,0,3,6,32.75,0.0,458.445,distributed at seven downstream joints
+Right,Unmodeled wire and small fixings allowance,7,0,3,6,27.75,14.5,535.945,distributed at seven downstream joints

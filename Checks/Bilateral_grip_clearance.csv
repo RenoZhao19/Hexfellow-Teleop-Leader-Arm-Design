@@ -1,0 +1,5 @@
+pose,left trigger deg,right trigger deg,minimum grip-assembly surface separation mm,nearest left part,nearest right part
+reference,0,0,189.936,left.Left_FACTR_palm,right.Right_FACTR_palm
+center_reach_one_squeezed,30,0,69.868,left.Left_FACTR_palm,right.Right_FACTR_palm
+center_reach_open,0,0,69.868,left.Left_FACTR_palm,right.Right_FACTR_palm
+center_reach_squeezed,30,30,69.868,left.Left_FACTR_palm,right.Right_FACTR_palm

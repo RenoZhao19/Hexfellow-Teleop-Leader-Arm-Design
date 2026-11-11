@@ -1,0 +1,5 @@
+scope,component 1,component 2,nominal common volume mm3
+J1,J01_XM430_case,J13_Motor_case_M25x6,8.977101007632601
+J1,J01_XM430_case,J15_Horn_M2x5,0.01809557368468156
+J1,J02_XM430_horn,J15_Horn_M2x5,8.141667745224385
+J1,J06_Shouldered_output_spindle,J16_Outboard_flange_M3x10,43.196898986859686

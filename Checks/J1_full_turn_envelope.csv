@@ -1,0 +1,26 @@
+moving-part conservative rotational envelope,fixed reference,common volume mm3
+spindle,J03_Servo_cassette,0.0
+spindle,J04_Twin_bearing_socket,0.0
+spindle,J05_Outer_race_cap,0.0
+spindle,J07_6805ZZ_inboard,0.0
+spindle,J07_6805ZZ_outboard,0.0
+spindle,J08_Outer_spacer,0.0
+spindle,J12_Cassette_M4x14,0.0
+spindle,J13_Motor_case_M25x6,0.0
+spindle,J14_Bearing_cap_M3x35,0.0
+spacer,J04_Twin_bearing_socket,0.0
+spacer,J07_6805ZZ_inboard,0.0
+spacer,J07_6805ZZ_outboard,0.0
+spacer,J08_Outer_spacer,0.0
+spacer,J14_Bearing_cap_M3x35,0.0
+shim,J04_Twin_bearing_socket,0.0
+shim,J07_6805ZZ_inboard,0.0
+shim,J14_Bearing_cap_M3x35,0.0
+circlip,J04_Twin_bearing_socket,0.0
+circlip,J14_Bearing_cap_M3x35,0.0
+flange_fasteners,J14_Bearing_cap_M3x35,0.0
+drive_screws,J03_Servo_cassette,0.0
+drive_screws,J04_Twin_bearing_socket,0.0
+drive_screws,J12_Cassette_M4x14,0.0
+drive_screws,J13_Motor_case_M25x6,0.0
+drive_screws,J14_Bearing_cap_M3x35,0.0

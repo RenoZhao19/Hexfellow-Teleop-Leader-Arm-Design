@@ -1,0 +1,8 @@
+axis,component,largest matching cylindrical diameter mm,axis-to-target direction residual radians unsigned,perpendicular shaft offset mm,matching cylindrical face count
+1,J02_XM430_horn,19.5,0.0,0.0,6
+2,M2_XM430_drive_horn,19.5,0.0,0.0,3
+3,M3_XC330_horn,16.0,0.0,0.0,14
+4,M4_XM430_drive_horn,19.5,0.0,0.0,3
+5,M5_XC330_horn,16.0,0.0,0.0,14
+6,M6_XC330_horn,16.0,0.0,0.0,14
+7,M7_XC330_horn,16.0,0.0,0.0,14

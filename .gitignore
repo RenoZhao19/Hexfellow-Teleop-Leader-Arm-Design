@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+*.FCBak
+CAD_Source/dist/
+CAD_Source/arm/out/
+CAD_Source/frame/cad/
+CAD_Source/grip/parts/
+CAD_Source/arm/vendor/*.step
+CAD_Source/integration/scene.json
+CAD_Source/arm/manifest.json
+CAD_Source/frame/manifest.json
+CAD_Source/frame/root_manifest.json
+CAD_Source/grip/manifest.json
+CAD_Source/grip/trigger.json

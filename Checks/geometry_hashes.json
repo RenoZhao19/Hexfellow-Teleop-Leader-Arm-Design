@@ -1,0 +1,692 @@
+[
+ {
+  "side": "frame",
+  "name": "F01_Arched_torso",
+  "group": 0,
+  "sha256": "3b0bbdcc7d9aaa008f509421704998c315d20adbaaea1fc269d2043cf34465d5"
+ },
+ {
+  "side": "frame",
+  "name": "F02_Flared_table_foot",
+  "group": 0,
+  "sha256": "960be11bcf0cce507f307743e23d4763d95781489ea2333419c242282609323d"
+ },
+ {
+  "side": "frame",
+  "name": "F03_Square_mast_40x40x2_L562",
+  "group": 0,
+  "sha256": "b0c6d403cd74b8f9a9b0f2add6f636e44491025b763cac1c496c560536c51127"
+ },
+ {
+  "side": "frame",
+  "name": "F04_Mast_sleeve_1",
+  "group": 0,
+  "sha256": "76e912ca8548ef909474bd84129e056f696fefb6a4c5c36b4ca922e0c5ef2a2c"
+ },
+ {
+  "side": "frame",
+  "name": "F04_Mast_sleeve_2",
+  "group": 0,
+  "sha256": "87524d593247a859ee5cdaac7f80beabded147ac87dbbc8aee818ef67a563163"
+ },
+ {
+  "side": "frame",
+  "name": "F04_Mast_sleeve_3",
+  "group": 0,
+  "sha256": "24c0a778059a982fa57079666af016745ba7538445b62f0fd0c48b77c915aee6"
+ },
+ {
+  "side": "frame",
+  "name": "F04_Mast_sleeve_4",
+  "group": 0,
+  "sha256": "585de1d9af8078f0a344e123c17f30320def501ea19df401e1c5954abe61cddb"
+ },
+ {
+  "side": "frame",
+  "name": "F05_M6x65_post_pin_1",
+  "group": 0,
+  "sha256": "fb6adff6b4bb46d54321834f8175cd04a551080eed07649c1d079f2c6d6a2c26"
+ },
+ {
+  "side": "frame",
+  "name": "F05_M6x75_post_pin_2",
+  "group": 0,
+  "sha256": "b3969f690887886d2821ddf12798bfef19363caf6a24072eac2ccaa43c90eac9"
+ },
+ {
+  "side": "frame",
+  "name": "F05_M6x65_post_pin_3",
+  "group": 0,
+  "sha256": "00948e53b656a86971fbb2bf208564bf327e6897ccfcd0597a4f0781059c6f1e"
+ },
+ {
+  "side": "frame",
+  "name": "F05_M6x65_post_pin_4",
+  "group": 0,
+  "sha256": "9aa663004357dcba55be5416a275226625966c9e8168864cf0ded2d74ed5212b"
+ },
+ {
+  "side": "left",
+  "name": "J01_XM430_case",
+  "group": 0,
+  "sha256": "91d17e29cf27bc36972fcc38c4681a80467487588eea99432b5afe53226b5098"
+ },
+ {
+  "side": "right",
+  "name": "J01_XM430_case",
+  "group": 0,
+  "sha256": "91d17e29cf27bc36972fcc38c4681a80467487588eea99432b5afe53226b5098"
+ },
+ {
+  "side": "left",
+  "name": "J02_XM430_horn",
+  "group": 1,
+  "sha256": "3fa9252ec6b80b560fc6c1e1709bc1cfba34c246996082fc427f23725604d7b8"
+ },
+ {
+  "side": "right",
+  "name": "J02_XM430_horn",
+  "group": 1,
+  "sha256": "3fa9252ec6b80b560fc6c1e1709bc1cfba34c246996082fc427f23725604d7b8"
+ },
+ {
+  "side": "left",
+  "name": "J03_Servo_cassette",
+  "group": 0,
+  "sha256": "d6da82acaf8ae1ed39b14b724a84798dd3dff5a244d5746dfbf2ca20df531859"
+ },
+ {
+  "side": "right",
+  "name": "J03_Servo_cassette",
+  "group": 0,
+  "sha256": "d6da82acaf8ae1ed39b14b724a84798dd3dff5a244d5746dfbf2ca20df531859"
+ },
+ {
+  "side": "left",
+  "name": "J04_Twin_bearing_socket",
+  "group": 0,
+  "sha256": "b3c5867c8e62a6ede6bdb9c894d557911e57b8f8fe348cac26293868b9427f07"
+ },
+ {
+  "side": "right",
+  "name": "J04_Twin_bearing_socket",
+  "group": 0,
+  "sha256": "b3c5867c8e62a6ede6bdb9c894d557911e57b8f8fe348cac26293868b9427f07"
+ },
+ {
+  "side": "left",
+  "name": "J05_Outer_race_cap",
+  "group": 0,
+  "sha256": "c5804e9f1866c49b6c5d7054d7663174acc6aa6af79a04a2fd1f97bb8c36f8db"
+ },
+ {
+  "side": "right",
+  "name": "J05_Outer_race_cap",
+  "group": 0,
+  "sha256": "c5804e9f1866c49b6c5d7054d7663174acc6aa6af79a04a2fd1f97bb8c36f8db"
+ },
+ {
+  "side": "left",
+  "name": "J06_Shouldered_output_spindle",
+  "group": 1,
+  "sha256": "c6be768f28d3d3fd9b8d8f57af048bcee4618ba7bdab7182c4b275e2e8db8515"
+ },
+ {
+  "side": "right",
+  "name": "J06_Shouldered_output_spindle",
+  "group": 1,
+  "sha256": "c6be768f28d3d3fd9b8d8f57af048bcee4618ba7bdab7182c4b275e2e8db8515"
+ },
+ {
+  "side": "left",
+  "name": "J07_6805ZZ_inboard",
+  "group": 0,
+  "sha256": "6d70dcbada16df8733558df3029d3490bc9085fb10795939f844b4cbe7a51d22"
+ },
+ {
+  "side": "right",
+  "name": "J07_6805ZZ_inboard",
+  "group": 0,
+  "sha256": "6d70dcbada16df8733558df3029d3490bc9085fb10795939f844b4cbe7a51d22"
+ },
+ {
+  "side": "left",
+  "name": "J07_6805ZZ_outboard",
+  "group": 0,
+  "sha256": "089a167e1d1ee5518fd22ffb6f41e6a397e1c51176e42f425efc9b64ad4edd6d"
+ },
+ {
+  "side": "right",
+  "name": "J07_6805ZZ_outboard",
+  "group": 0,
+  "sha256": "089a167e1d1ee5518fd22ffb6f41e6a397e1c51176e42f425efc9b64ad4edd6d"
+ },
+ {
+  "side": "left",
+  "name": "J08_Outer_spacer",
+  "group": 0,
+  "sha256": "332e4b9d1e243295e414364d56bbfaa94c30beeceff8543208eddb8b78b0cd65"
+ },
+ {
+  "side": "right",
+  "name": "J08_Outer_spacer",
+  "group": 0,
+  "sha256": "332e4b9d1e243295e414364d56bbfaa94c30beeceff8543208eddb8b78b0cd65"
+ },
+ {
+  "side": "left",
+  "name": "J09_Inner_spacer",
+  "group": 1,
+  "sha256": "dc67d9a1a8d7bca6a9c9007f48ef94f6fb0352a30489eae6063bae997e68eccf"
+ },
+ {
+  "side": "right",
+  "name": "J09_Inner_spacer",
+  "group": 1,
+  "sha256": "dc67d9a1a8d7bca6a9c9007f48ef94f6fb0352a30489eae6063bae997e68eccf"
+ },
+ {
+  "side": "left",
+  "name": "J10_Inner_thrust_shim",
+  "group": 1,
+  "sha256": "7432f638e0e0d095ec5aea36c756b1122628d990e5790621c79ac31da8ef4a5a"
+ },
+ {
+  "side": "right",
+  "name": "J10_Inner_thrust_shim",
+  "group": 1,
+  "sha256": "7432f638e0e0d095ec5aea36c756b1122628d990e5790621c79ac31da8ef4a5a"
+ },
+ {
+  "side": "left",
+  "name": "J11_25mm_circlip_envelope",
+  "group": 1,
+  "sha256": "ca35e1e04a348dd7ab7c39761ff8d91d8b9c790d5c921aa91c7f02f358dd094c"
+ },
+ {
+  "side": "right",
+  "name": "J11_25mm_circlip_envelope",
+  "group": 1,
+  "sha256": "ca35e1e04a348dd7ab7c39761ff8d91d8b9c790d5c921aa91c7f02f358dd094c"
+ },
+ {
+  "side": "left",
+  "name": "J12_Cassette_M4x14",
+  "group": 0,
+  "sha256": "934817d8270700fb009696403ccc4308d777a6b6c867328dad57daebee2a0896"
+ },
+ {
+  "side": "right",
+  "name": "J12_Cassette_M4x14",
+  "group": 0,
+  "sha256": "934817d8270700fb009696403ccc4308d777a6b6c867328dad57daebee2a0896"
+ },
+ {
+  "side": "left",
+  "name": "J13_Motor_case_M25x6",
+  "group": 0,
+  "sha256": "82f4553e16173eb8784edfb38b639ea1e657e11455643efbb37279314e7e9bf2"
+ },
+ {
+  "side": "right",
+  "name": "J13_Motor_case_M25x6",
+  "group": 0,
+  "sha256": "82f4553e16173eb8784edfb38b639ea1e657e11455643efbb37279314e7e9bf2"
+ },
+ {
+  "side": "left",
+  "name": "J14_Bearing_cap_M3x35",
+  "group": 0,
+  "sha256": "3c224f32dc0124c52bbd34eeba4b0cba36472cdaff2756d981b3a4cec60ba33e"
+ },
+ {
+  "side": "right",
+  "name": "J14_Bearing_cap_M3x35",
+  "group": 0,
+  "sha256": "3c224f32dc0124c52bbd34eeba4b0cba36472cdaff2756d981b3a4cec60ba33e"
+ },
+ {
+  "side": "left",
+  "name": "J15_Horn_M2x5",
+  "group": 1,
+  "sha256": "5a4890397c6b8e5e11d95df98e5ecf242086006b552c619e7a9d479a1bca5ad7"
+ },
+ {
+  "side": "right",
+  "name": "J15_Horn_M2x5",
+  "group": 1,
+  "sha256": "5a4890397c6b8e5e11d95df98e5ecf242086006b552c619e7a9d479a1bca5ad7"
+ },
+ {
+  "side": "left",
+  "name": "J16_Outboard_flange_M3x10",
+  "group": 1,
+  "sha256": "d368956319ce7b1782bb02be7cf6cf0d4787a1abab038a657113eb8393509d1e"
+ },
+ {
+  "side": "right",
+  "name": "J16_Outboard_flange_M3x10",
+  "group": 1,
+  "sha256": "d368956319ce7b1782bb02be7cf6cf0d4787a1abab038a657113eb8393509d1e"
+ },
+ {
+  "side": "left",
+  "name": "L1_Shoulder_neck",
+  "group": 1,
+  "sha256": "e691e89e8e9693dd95192c60f9b4645b0d0640ad15716177628de91882a25f06"
+ },
+ {
+  "side": "right",
+  "name": "L1_Shoulder_neck",
+  "group": 1,
+  "sha256": "e691e89e8e9693dd95192c60f9b4645b0d0640ad15716177628de91882a25f06"
+ },
+ {
+  "side": "left",
+  "name": "L2_Upper_fork",
+  "group": 2,
+  "sha256": "b5498b202aec8cf692b244395c373bb538f7feff03e6512a0631e95358e30511"
+ },
+ {
+  "side": "right",
+  "name": "L2_Upper_fork",
+  "group": 2,
+  "sha256": "b5498b202aec8cf692b244395c373bb538f7feff03e6512a0631e95358e30511"
+ },
+ {
+  "side": "left",
+  "name": "L2_Upper_service_cheek",
+  "group": 2,
+  "sha256": "80d474d26b9615b0a8bed64943ef24f5598350a772690783228bd9432c7ca11e"
+ },
+ {
+  "side": "right",
+  "name": "L2_Upper_service_cheek",
+  "group": 2,
+  "sha256": "80d474d26b9615b0a8bed64943ef24f5598350a772690783228bd9432c7ca11e"
+ },
+ {
+  "side": "left",
+  "name": "L4_Elbow_fork",
+  "group": 4,
+  "sha256": "6725f90d34423253abe42e15fe14264af44ec29f9c331f64badfb9f38f62d929"
+ },
+ {
+  "side": "right",
+  "name": "L4_Elbow_fork",
+  "group": 4,
+  "sha256": "6725f90d34423253abe42e15fe14264af44ec29f9c331f64badfb9f38f62d929"
+ },
+ {
+  "side": "left",
+  "name": "L4_Elbow_service_cheek",
+  "group": 4,
+  "sha256": "5ff7ada20ff876935eb3dd40b50d91e5d6a4599324dd67eeee84dc5474ca81fc"
+ },
+ {
+  "side": "right",
+  "name": "L4_Elbow_service_cheek",
+  "group": 4,
+  "sha256": "5ff7ada20ff876935eb3dd40b50d91e5d6a4599324dd67eeee84dc5474ca81fc"
+ },
+ {
+  "side": "left",
+  "name": "L3_Upper_bone",
+  "group": 3,
+  "sha256": "c7f12e98b105e04d78cd923523ddf5e9fc49ff4cbd5b519df6fc2cc1c07a8f0d"
+ },
+ {
+  "side": "right",
+  "name": "L3_Upper_bone",
+  "group": 3,
+  "sha256": "c7f12e98b105e04d78cd923523ddf5e9fc49ff4cbd5b519df6fc2cc1c07a8f0d"
+ },
+ {
+  "side": "left",
+  "name": "L5_Forearm_bone",
+  "group": 5,
+  "sha256": "5a252faca2cbffa30f51415b4d6086be19047b51744386db210b8b51fb15d12a"
+ },
+ {
+  "side": "right",
+  "name": "L5_Forearm_bone",
+  "group": 5,
+  "sha256": "5a252faca2cbffa30f51415b4d6086be19047b51744386db210b8b51fb15d12a"
+ },
+ {
+  "side": "left",
+  "name": "L6_Wrist_saddle",
+  "group": 6,
+  "sha256": "1e89d43a70490c0882ed64bba372115a2904a94895e5f45d88d96645bd12de83"
+ },
+ {
+  "side": "right",
+  "name": "L6_Wrist_saddle",
+  "group": 6,
+  "sha256": "1e89d43a70490c0882ed64bba372115a2904a94895e5f45d88d96645bd12de83"
+ },
+ {
+  "side": "left",
+  "name": "M2_XM430_case",
+  "group": 1,
+  "sha256": "a71deb02f6edd8fd2c2f4cb8c835d58d29f9c1e16e88c8960a0c00c4066eae55"
+ },
+ {
+  "side": "right",
+  "name": "M2_XM430_case",
+  "group": 1,
+  "sha256": "a71deb02f6edd8fd2c2f4cb8c835d58d29f9c1e16e88c8960a0c00c4066eae55"
+ },
+ {
+  "side": "left",
+  "name": "M2_XM430_drive_horn",
+  "group": 2,
+  "sha256": "c430013de8a464b273c14d8bd70df290ed39c1c45cc09508719b3220b0c9efdc"
+ },
+ {
+  "side": "right",
+  "name": "M2_XM430_drive_horn",
+  "group": 2,
+  "sha256": "c430013de8a464b273c14d8bd70df290ed39c1c45cc09508719b3220b0c9efdc"
+ },
+ {
+  "side": "left",
+  "name": "M2_XM430_idler",
+  "group": 2,
+  "sha256": "c7c5a46687c1e1aeb23f89ae006e3cecd6133d715e7e2d38218e18543dea4fd3"
+ },
+ {
+  "side": "right",
+  "name": "M2_XM430_idler",
+  "group": 2,
+  "sha256": "c7c5a46687c1e1aeb23f89ae006e3cecd6133d715e7e2d38218e18543dea4fd3"
+ },
+ {
+  "side": "left",
+  "name": "M3_XC330_case",
+  "group": 2,
+  "sha256": "673e0b15a55ca8c2fa12dec527cf8e10a8d39a4bd3f25abc62364dee70576261"
+ },
+ {
+  "side": "right",
+  "name": "M3_XC330_case",
+  "group": 2,
+  "sha256": "673e0b15a55ca8c2fa12dec527cf8e10a8d39a4bd3f25abc62364dee70576261"
+ },
+ {
+  "side": "left",
+  "name": "M3_XC330_horn",
+  "group": 3,
+  "sha256": "1e8577abd2dc5d34c759bdcc635ffb3e54b36125223a4c3030992558809a71e6"
+ },
+ {
+  "side": "right",
+  "name": "M3_XC330_horn",
+  "group": 3,
+  "sha256": "1e8577abd2dc5d34c759bdcc635ffb3e54b36125223a4c3030992558809a71e6"
+ },
+ {
+  "side": "left",
+  "name": "M4_XM430_case",
+  "group": 3,
+  "sha256": "99aad7903f095abb326de02b3ab3f88ce328eaa5c2e2a87146bea72174816768"
+ },
+ {
+  "side": "right",
+  "name": "M4_XM430_case",
+  "group": 3,
+  "sha256": "99aad7903f095abb326de02b3ab3f88ce328eaa5c2e2a87146bea72174816768"
+ },
+ {
+  "side": "left",
+  "name": "M4_XM430_drive_horn",
+  "group": 4,
+  "sha256": "36c8c58d5c8a88695eff1d944375cdf5bf1725a547c56de96036bfc710675632"
+ },
+ {
+  "side": "right",
+  "name": "M4_XM430_drive_horn",
+  "group": 4,
+  "sha256": "36c8c58d5c8a88695eff1d944375cdf5bf1725a547c56de96036bfc710675632"
+ },
+ {
+  "side": "left",
+  "name": "M4_XM430_idler",
+  "group": 4,
+  "sha256": "bcdab32293c2faf6327640d779303c592ccae1904bd7c3bb4394dd1c5663cdc6"
+ },
+ {
+  "side": "right",
+  "name": "M4_XM430_idler",
+  "group": 4,
+  "sha256": "bcdab32293c2faf6327640d779303c592ccae1904bd7c3bb4394dd1c5663cdc6"
+ },
+ {
+  "side": "left",
+  "name": "M5_XC330_case",
+  "group": 4,
+  "sha256": "8779bac4486f8cb7f28ecc0eb6d2a9f43f99bf47f8418cc850ad969c6366ab84"
+ },
+ {
+  "side": "right",
+  "name": "M5_XC330_case",
+  "group": 4,
+  "sha256": "8779bac4486f8cb7f28ecc0eb6d2a9f43f99bf47f8418cc850ad969c6366ab84"
+ },
+ {
+  "side": "left",
+  "name": "M5_XC330_horn",
+  "group": 5,
+  "sha256": "fd50057fab3ad904e12de75e045dcb96b9c2171eebe1ee067b2036a2d430416b"
+ },
+ {
+  "side": "right",
+  "name": "M5_XC330_horn",
+  "group": 5,
+  "sha256": "fd50057fab3ad904e12de75e045dcb96b9c2171eebe1ee067b2036a2d430416b"
+ },
+ {
+  "side": "left",
+  "name": "M6_XC330_case",
+  "group": 5,
+  "sha256": "4e0c66436244f33eeb5770182dc8c816983f54b34141f197bd9a8d4c00ebf0c8"
+ },
+ {
+  "side": "right",
+  "name": "M6_XC330_case",
+  "group": 5,
+  "sha256": "4e0c66436244f33eeb5770182dc8c816983f54b34141f197bd9a8d4c00ebf0c8"
+ },
+ {
+  "side": "left",
+  "name": "M6_XC330_horn",
+  "group": 6,
+  "sha256": "cb8fc0d0202192bb365f85e104bb980992e50196afa0c858fc2bab13302ac963"
+ },
+ {
+  "side": "right",
+  "name": "M6_XC330_horn",
+  "group": 6,
+  "sha256": "cb8fc0d0202192bb365f85e104bb980992e50196afa0c858fc2bab13302ac963"
+ },
+ {
+  "side": "left",
+  "name": "M7_XC330_case",
+  "group": 6,
+  "sha256": "6b94796a2129edba9e7a3142a4ce44c8f0b1c14bbec95599efca5d600f38bae6"
+ },
+ {
+  "side": "right",
+  "name": "M7_XC330_case",
+  "group": 6,
+  "sha256": "6b94796a2129edba9e7a3142a4ce44c8f0b1c14bbec95599efca5d600f38bae6"
+ },
+ {
+  "side": "left",
+  "name": "M7_XC330_horn",
+  "group": 7,
+  "sha256": "db354b13a8de525c17f80f4b7e9f62dfafab66a62902a544a7683bf5961bcee8"
+ },
+ {
+  "side": "right",
+  "name": "M7_XC330_horn",
+  "group": 7,
+  "sha256": "db354b13a8de525c17f80f4b7e9f62dfafab66a62902a544a7683bf5961bcee8"
+ },
+ {
+  "side": "left",
+  "name": "F1_Exterior_fasteners",
+  "group": 1,
+  "sha256": "91f38b3ff9951f297e28da828b72cdba9f14a48927c3b9e85c238fe367140b0f"
+ },
+ {
+  "side": "right",
+  "name": "F1_Exterior_fasteners",
+  "group": 1,
+  "sha256": "91f38b3ff9951f297e28da828b72cdba9f14a48927c3b9e85c238fe367140b0f"
+ },
+ {
+  "side": "left",
+  "name": "F2_Exterior_fasteners",
+  "group": 2,
+  "sha256": "19a7062158ad618a813ef0e221c3316adf3a192ad66a86b7387baafa5a68da5f"
+ },
+ {
+  "side": "right",
+  "name": "F2_Exterior_fasteners",
+  "group": 2,
+  "sha256": "19a7062158ad618a813ef0e221c3316adf3a192ad66a86b7387baafa5a68da5f"
+ },
+ {
+  "side": "left",
+  "name": "F3_Exterior_fasteners",
+  "group": 3,
+  "sha256": "cbd26d41efa1f9cedcd382e8b69cd0a30243b7528d0d760812458d6aba53c6b3"
+ },
+ {
+  "side": "right",
+  "name": "F3_Exterior_fasteners",
+  "group": 3,
+  "sha256": "cbd26d41efa1f9cedcd382e8b69cd0a30243b7528d0d760812458d6aba53c6b3"
+ },
+ {
+  "side": "left",
+  "name": "F4_Exterior_fasteners",
+  "group": 4,
+  "sha256": "f9132bb6281e5297aa79abb1735ee129c7e3072362c82e045d739a687ae594bb"
+ },
+ {
+  "side": "right",
+  "name": "F4_Exterior_fasteners",
+  "group": 4,
+  "sha256": "f9132bb6281e5297aa79abb1735ee129c7e3072362c82e045d739a687ae594bb"
+ },
+ {
+  "side": "left",
+  "name": "F5_Exterior_fasteners",
+  "group": 5,
+  "sha256": "764791b76dad987bcb07af7c724ebe49a0e1f82c10acd9323c2514317ac115e3"
+ },
+ {
+  "side": "right",
+  "name": "F5_Exterior_fasteners",
+  "group": 5,
+  "sha256": "764791b76dad987bcb07af7c724ebe49a0e1f82c10acd9323c2514317ac115e3"
+ },
+ {
+  "side": "left",
+  "name": "F6_Exterior_fasteners",
+  "group": 6,
+  "sha256": "e0cd5e846f480beb974c62e402a0a891fd8f9abb6be78a76899e961516e1e775"
+ },
+ {
+  "side": "right",
+  "name": "F6_Exterior_fasteners",
+  "group": 6,
+  "sha256": "e0cd5e846f480beb974c62e402a0a891fd8f9abb6be78a76899e961516e1e775"
+ },
+ {
+  "side": "left",
+  "name": "Left_FACTR_palm",
+  "group": 7,
+  "sha256": "39c26f7e202ed0d6d0fc1940bef9891745f25200c0ad03bfb675b7959d5ffdfe"
+ },
+ {
+  "side": "left",
+  "name": "Left_FACTR_trigger",
+  "group": 8,
+  "sha256": "6c2e68a3b3262e7676a9636d305e0e0e34d764929e5ae529d7c74b7cd8b53357"
+ },
+ {
+  "side": "left",
+  "name": "Left_J8_XC330_T288T_case",
+  "group": 7,
+  "sha256": "60f2bc4550239e23dcfa1682c4f351dd1407729d82c82ecec553ac9bcff4899a"
+ },
+ {
+  "side": "left",
+  "name": "Left_J8_XC330_T288T_horn",
+  "group": 8,
+  "sha256": "032e4884253099f73e8cff689903980a70ab5955779f0748402f5b894d0f1096"
+ },
+ {
+  "side": "left",
+  "name": "Left_J7_grip_screws",
+  "group": 7,
+  "sha256": "62ea518dfb1671163265d669035e23a66bbeff99e61adea6bce2fecd650c72f1"
+ },
+ {
+  "side": "left",
+  "name": "Left_J8_case_screws",
+  "group": 7,
+  "sha256": "19ef1f28242b2e0a9e3e6b8183f445b79636588cde6f2e0d1810453d420839a3"
+ },
+ {
+  "side": "left",
+  "name": "Left_J8_trigger_screws",
+  "group": 8,
+  "sha256": "3d890663c0b6291a2e4548c07d01a6bf3510d2d2b1501d8c6770a205f31e9095"
+ },
+ {
+  "side": "right",
+  "name": "Right_FACTR_palm",
+  "group": 7,
+  "sha256": "23a5866f5cafc855426e85f3961967e8429ee264693534c88bf33c73ec86b87b"
+ },
+ {
+  "side": "right",
+  "name": "Right_FACTR_trigger",
+  "group": 8,
+  "sha256": "535cea936400fc20d2d26c31729bb860a65cc935e4899490db9a9425dc942403"
+ },
+ {
+  "side": "right",
+  "name": "Right_J8_XC330_T288T_case",
+  "group": 7,
+  "sha256": "cd9bd64f361365a6dec6e60b60178a48b8b435a0183e3084a76923b0fcc3c401"
+ },
+ {
+  "side": "right",
+  "name": "Right_J8_XC330_T288T_horn",
+  "group": 8,
+  "sha256": "aeebd5e0b397fe4a1d89c62c8b810dfc737bbbd9e37ff4cf551f8ac4ddeaa171"
+ },
+ {
+  "side": "right",
+  "name": "Right_J7_grip_screws",
+  "group": 7,
+  "sha256": "13d1892d457fa4855267948ce4f4727008199630279a1497a0cf98c46494fe50"
+ },
+ {
+  "side": "right",
+  "name": "Right_J8_case_screws",
+  "group": 7,
+  "sha256": "f54552b99cf07c44c930f8022b7d700f30a2fe783f5fc6d576a796dfbe99fe1c"
+ },
+ {
+  "side": "right",
+  "name": "Right_J8_trigger_screws",
+  "group": 8,
+  "sha256": "63a25517db217fdfd463fc0b86bf29bf353b3d6d47e2382985c6bf074dde87bf"
+ }
+]
