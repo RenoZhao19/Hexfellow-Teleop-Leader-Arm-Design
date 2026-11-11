@@ -11,9 +11,9 @@ left,J08_Outer_spacer,86.98,541.58,0
 left,J09_Inner_spacer,86.5635,545.7722,1
 left,J10_Inner_thrust_shim,79.3635,545.7722,1
 left,J11_25mm_circlip_envelope,78.0432,541.6677,1
-left,J12_Cassette_M4x14,59.48,531.6313,0
+left,J12_Cassette_M4x14,59.48,531.4313,0
 left,J13_Motor_case_M25x6,67.48,546.68,0
-left,J14_Bearing_cap_M3x35,66.98,540.563,0
+left,J14_Bearing_cap_M3x35,66.98,536.8284,0
 left,J15_Horn_M2x5,70.2469,552.0269,1
 left,J16_Outboard_flange_M3x10,102.5249,544.4567,1
 left,L1_Shoulder_neck,107.3466,542.4044,1
@@ -49,8 +49,8 @@ left,Left_FACTR_trigger,56.3818,241.1705,8
 left,Left_J8_XC330_T288T_case,59.9566,309.2431,7
 left,Left_J8_XC330_T288T_horn,75.8634,308.0039,8
 left,Left_J7_grip_screws,85.1539,343.2812,7
-left,Left_J8_case_screws,55.0676,313.1506,7
-left,Left_J8_trigger_screws,81.2724,306.8252,8
+left,Left_J8_case_screws,55.0676,312.9798,7
+left,Left_J8_trigger_screws,83.146,306.8252,8
 right,J01_XM430_case,34.48,545.73,0
 right,J02_XM430_horn,70.1832,549.7188,1
 right,J03_Servo_cassette,64.98,518.98,0
@@ -63,9 +63,9 @@ right,J08_Outer_spacer,86.98,541.58,0
 right,J09_Inner_spacer,86.5635,545.7722,1
 right,J10_Inner_thrust_shim,79.3635,545.7722,1
 right,J11_25mm_circlip_envelope,78.0432,541.6677,1
-right,J12_Cassette_M4x14,59.48,531.6313,0
+right,J12_Cassette_M4x14,59.48,531.4313,0
 right,J13_Motor_case_M25x6,67.48,546.68,0
-right,J14_Bearing_cap_M3x35,66.98,540.563,0
+right,J14_Bearing_cap_M3x35,66.98,536.8284,0
 right,J15_Horn_M2x5,70.2469,552.0269,1
 right,J16_Outboard_flange_M3x10,102.5249,544.4567,1
 right,L1_Shoulder_neck,107.3466,542.4044,1
@@ -101,5 +101,5 @@ right,Right_FACTR_trigger,56.3818,241.1705,8
 right,Right_J8_XC330_T288T_case,59.9566,309.2431,7
 right,Right_J8_XC330_T288T_horn,75.8634,308.0039,8
 right,Right_J7_grip_screws,85.1539,343.2812,7
-right,Right_J8_case_screws,55.0676,313.1506,7
-right,Right_J8_trigger_screws,81.2724,306.8252,8
+right,Right_J8_case_screws,55.0676,312.9798,7
+right,Right_J8_trigger_screws,83.146,306.8252,8

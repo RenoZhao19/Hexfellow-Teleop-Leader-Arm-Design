@@ -1,0 +1,17 @@
+hand,interface,hole,measured_print_land_mm,measured_shank_length_mm,wide_entry_mm,nominal_pilot_reach_mm,plain_shank_in_thread_forming_material_mm3,straight_driver_D3.2_L24_overlap_mm3,screw_group_vs_other_motor_component_mm3
+left,J8 case,1,3.0,10.0,4.5,2.5,2.827433,0.0,0.0
+left,J8 case,2,3.0,10.0,4.5,2.5,2.827433,0.0,0.0
+left,J8 case,3,3.0,10.0,4.5,2.5,2.827433,0.0,0.0
+left,J8 case,4,3.0,10.0,4.5,2.5,2.827433,0.0,0.0
+left,J8 trigger,1,4.0,6.0,0.0,2.0,2.261947,0.0,0.0
+left,J8 trigger,2,4.0,6.0,0.0,2.0,2.261947,0.0,0.0
+left,J8 trigger,3,4.0,6.0,0.0,2.0,2.261947,0.0,0.0
+left,J8 trigger,4,4.0,6.0,0.0,2.0,2.261947,0.0,0.0
+right,J8 case,1,3.0,10.0,4.5,2.5,2.827433,0.0,0.0
+right,J8 case,2,3.0,10.0,4.5,2.5,2.827433,0.0,0.0
+right,J8 case,3,3.0,10.0,4.5,2.5,2.827433,0.0,0.0
+right,J8 case,4,3.0,10.0,4.5,2.5,2.827433,0.0,0.0
+right,J8 trigger,1,4.0,6.0,0.0,2.0,2.261947,0.0,0.0
+right,J8 trigger,2,4.0,6.0,0.0,2.0,2.261947,0.0,0.0
+right,J8 trigger,3,4.0,6.0,0.0,2.0,2.261947,0.0,0.0
+right,J8 trigger,4,4.0,6.0,0.0,2.0,2.261947,0.0,0.0

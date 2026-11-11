@@ -1,21 +1,21 @@
 Part ID,Total occurrences,Type,File,X mm,Y mm,Z mm,CAD cm3,Notes
-F01_Arched_torso,1,print,Parts/Printable_STEP/F01_Arched_torso.step,193.11,130.0,177.0,517.29,PETG
+F01_Arched_torso,1,print,Parts/Printable_STEP/F01_Arched_torso.step,165.5,130.0,177.0,517.29,PETG
 F02_Flared_table_foot,1,print,Parts/Printable_STEP/F02_Flared_table_foot.step,136.0,138.0,85.0,364.59,PETG
-J03_Servo_cassette,2,print,Parts/Printable_STEP/J03_Servo_cassette.step,82.0,82.0,8.5,34.46,PETG
+J03_Servo_cassette,2,print,Parts/Printable_STEP/J03_Servo_cassette.step,82.0,82.0,8.5,34.41,PETG
 J04_Twin_bearing_socket,2,print,Parts/Printable_STEP/J04_Twin_bearing_socket.step,58.0,58.0,25.5,31.18,PETG
 J05_Outer_race_cap,2,print,Parts/Printable_STEP/J05_Outer_race_cap.step,54.0,54.0,3.0,3.91,PETG
-L1_Shoulder_neck,2,print,Parts/Printable_STEP/L1_Shoulder_neck.step,44.02,33.4,37.19,11.59,
-L2_Upper_fork,2,print,Parts/Printable_STEP/L2_Upper_fork.step,34.37,84.84,83.66,14.15,
-L2_Upper_service_cheek,2,print,Parts/Printable_STEP/L2_Upper_service_cheek.step,31.8,54.54,80.46,4.16,
-L3_Upper_bone,2,print,Parts/Printable_STEP/L3_Upper_bone.step,48.66,44.37,80.27,16.47,
-L4_Elbow_fork,2,print,Parts/Printable_STEP/L4_Elbow_fork.step,33.09,78.28,72.58,12.13,
-L4_Elbow_service_cheek,2,print,Parts/Printable_STEP/L4_Elbow_service_cheek.step,31.08,50.42,69.38,4.13,
-L5_Forearm_bone,2,print,Parts/Printable_STEP/L5_Forearm_bone.step,41.33,71.39,96.69,16.11,
-L6_Wrist_saddle,2,print,Parts/Printable_STEP/L6_Wrist_saddle.step,23.89,46.25,25.35,4.87,
-Left_FACTR_palm,1,print,Parts/Printable_STEP/Left_FACTR_palm.step,140.42,39.1,100.37,61.01,
-Left_FACTR_trigger,1,print,Parts/Printable_STEP/Left_FACTR_trigger.step,76.69,6.9,37.0,4.75,
-Right_FACTR_palm,1,print,Parts/Printable_STEP/Right_FACTR_palm.step,140.42,39.1,100.37,61.01,
-Right_FACTR_trigger,1,print,Parts/Printable_STEP/Right_FACTR_trigger.step,76.69,6.9,37.0,4.75,
+L1_Shoulder_neck,2,print,Parts/Printable_STEP/L1_Shoulder_neck.step,40.45,33.4,37.2,11.59,
+L2_Upper_fork,2,print,Parts/Printable_STEP/L2_Upper_fork.step,24.35,55.75,83.66,14.15,
+L2_Upper_service_cheek,2,print,Parts/Printable_STEP/L2_Upper_service_cheek.step,24.2,10.5,56.1,4.16,
+L3_Upper_bone,2,print,Parts/Printable_STEP/L3_Upper_bone.step,44.2,21.4,80.27,16.47,
+L4_Elbow_fork,2,print,Parts/Printable_STEP/L4_Elbow_fork.step,24.33,55.77,72.58,12.13,
+L4_Elbow_service_cheek,2,print,Parts/Printable_STEP/L4_Elbow_service_cheek.step,24.2,10.5,56.1,4.13,
+L5_Forearm_bone,2,print,Parts/Printable_STEP/L5_Forearm_bone.step,24.0,62.05,96.7,16.11,
+L6_Wrist_saddle,2,print,Parts/Printable_STEP/L6_Wrist_saddle.step,21.4,46.25,24.0,4.87,
+Left_FACTR_palm,1,print,Parts/Printable_STEP/Left_FACTR_palm.step,140.42,33.3,100.37,61.01,
+Left_FACTR_trigger,1,print,Parts/Printable_STEP/Left_FACTR_trigger.step,76.69,6.3,37.0,4.75,
+Right_FACTR_palm,1,print,Parts/Printable_STEP/Right_FACTR_palm.step,140.42,33.3,100.37,61.01,
+Right_FACTR_trigger,1,print,Parts/Printable_STEP/Right_FACTR_trigger.step,76.69,6.3,37.0,4.75,
 F05_M6x65_post_pin_1,1,purchase,,,,,,Purchased reference geometry
 F05_M6x65_post_pin_3,1,purchase,,,,,,Purchased reference geometry
 F05_M6x65_post_pin_4,1,purchase,,,,,,Purchased reference geometry
@@ -37,30 +37,30 @@ J13_Motor_case_M25x6,2,purchase,,,,,,Purchased reference geometry
 J14_Bearing_cap_M3x35,2,purchase,,,,,,Purchased reference geometry
 J15_Horn_M2x5,2,purchase,,,,,,Purchased reference geometry
 J16_Outboard_flange_M3x10,2,purchase,,,,,,Purchased reference geometry
-Left_J7_grip_screws,1,purchase,,,,,,nominal screw envelope
+Left_J7_grip_screws,1,purchase,,,,,,4 x 2 x 6 mm plastic tapping screws
 Left_J8_XC330_T288T_case,1,purchase,,,,,,Purchased reference geometry
 Left_J8_XC330_T288T_horn,1,purchase,,,,,,Purchased reference geometry
-Left_J8_case_screws,1,purchase,,,,,,nominal screw envelope
-Left_J8_trigger_screws,1,purchase,,,,,,nominal screw envelope
+Left_J8_case_screws,1,purchase,,,,,,4 x 2 x 10 mm plastic tapping screws
+Left_J8_trigger_screws,1,purchase,,,,,,4 x 2 x 6 mm plastic tapping screws
 M2_XM430_case,2,purchase,,,,,,ROBOTIS XM430-W210-T
 M2_XM430_drive_horn,2,purchase,,,,,,ROBOTIS HN12-N101 supplied horn; allocated share of motor mass
 M2_XM430_idler,2,purchase,,,,,,ROBOTIS rear idler envelope; mass estimated from nominal aluminum volume
 M3_XC330_case,2,purchase,,,,,,ROBOTIS XC330-T288-T
-M3_XC330_horn,2,purchase,,,,,,ROBOTIS HNX330-N101 and axial screw
+M3_XC330_horn,2,purchase,,,,,,ROBOTIS stock plastic XC330 horn and factory axial screw
 M4_XM430_case,2,purchase,,,,,,ROBOTIS XM430-W210-T
 M4_XM430_drive_horn,2,purchase,,,,,,ROBOTIS HN12-N101 supplied horn; allocated share of motor mass
 M4_XM430_idler,2,purchase,,,,,,ROBOTIS rear idler envelope; mass estimated from nominal aluminum volume
 M5_XC330_case,2,purchase,,,,,,ROBOTIS XC330-T288-T
-M5_XC330_horn,2,purchase,,,,,,ROBOTIS HNX330-N101 and axial screw
+M5_XC330_horn,2,purchase,,,,,,ROBOTIS stock plastic XC330 horn and factory axial screw
 M6_XC330_case,2,purchase,,,,,,ROBOTIS XC330-T288-T
-M6_XC330_horn,2,purchase,,,,,,ROBOTIS HNX330-N101 and axial screw
+M6_XC330_horn,2,purchase,,,,,,ROBOTIS stock plastic XC330 horn and factory axial screw
 M7_XC330_case,2,purchase,,,,,,ROBOTIS XC330-T288-T
-M7_XC330_horn,2,purchase,,,,,,ROBOTIS HNX330-N101 and axial screw
-Right_J7_grip_screws,1,purchase,,,,,,nominal screw envelope
+M7_XC330_horn,2,purchase,,,,,,ROBOTIS stock plastic XC330 horn and factory axial screw
+Right_J7_grip_screws,1,purchase,,,,,,4 x 2 x 6 mm plastic tapping screws
 Right_J8_XC330_T288T_case,1,purchase,,,,,,Purchased reference geometry
 Right_J8_XC330_T288T_horn,1,purchase,,,,,,Purchased reference geometry
-Right_J8_case_screws,1,purchase,,,,,,nominal screw envelope
-Right_J8_trigger_screws,1,purchase,,,,,,nominal screw envelope
+Right_J8_case_screws,1,purchase,,,,,,4 x 2 x 10 mm plastic tapping screws
+Right_J8_trigger_screws,1,purchase,,,,,,4 x 2 x 6 mm plastic tapping screws
 F03_Square_mast_40x40x2_L562,1,stock,Parts/Metal/F03_Square_mast_40x40x2_L562.step,40.0,40.0,562.0,167.41,6061 aluminum
 F04_Mast_sleeve_36mm,4,stock,Parts/Metal/F04_Mast_sleeve_36mm.step,10.0,36.0,10.0,1.6,aluminum
 J06_Shouldered_output_spindle,2,stock,Parts/Metal/J06_Shouldered_output_spindle.step,33.0,33.0,35.5,14.89,6061-T6 aluminum

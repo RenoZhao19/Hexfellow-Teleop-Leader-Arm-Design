@@ -4,6 +4,8 @@ The J1 axes run through the two circular ends of the upper chest. Their origins 
 
 The two shoulder modules are identical. Each contains one XM430-W210-T and two 6805ZZ shielded radial bearings in its fixed socket. The motor horn turns a machined spindle that carries the first arm link. The two bearings carry transverse loads through the sleeve into the torso. The nominal support-center span is 12 mm. Their presence does not establish a permissible load on the printed chest, bolt group or assembled station.
 
+For the bench sequence, use the [illustrated assembly guide](Shoulder_assembly.md). For thread pitches, head sizes, insert models and order quantities, use the [hardware buying guide](Hardware_buying_guide.md).
+
 ## Hardware quantities for the complete torso and both J1 joints
 
 | Item | Quantity | Fit or function |
@@ -19,15 +21,19 @@ The two shoulder modules are identical. Each contains one XM430-W210-T and two 6
 | M2.5 × 6 low-head screws | 4 | J1 case to printed cassette. Two per servo through a 3 mm land; 3 mm available case thread. Keep head within Ø4.6 × 1.7 mm. |
 | M2 × 5 socket-head screws | 8 | Four per horn, diagonally indexed on Ø16 PCD; 3 mm spindle grip and 2 mm horn thread. Head must pass Ø4.06 mm tool bore. |
 | M3 × 10 socket-head screws | 8 | Per arm four on Ø24 PCD. The first arm link is 5 mm thick. Tap M3 × 0.5 through the spindle flange. |
-| M3 × 35 with M3 heat-set inserts | 8 each | Four per cartridge, through 3 mm cap and cup to rear servo cassette. Insert pockets Ø4.15 × 5.6 mm. |
-| M4 × 14 low-head screws and M4 heat-set inserts | 8 each | Four per cassette on Ø70 PCD. Chest pockets Ø5.6 × 7.4 mm. Confirm actual selected insert's installation diameter and engagement. |
+| M3 × 35 with M3 heat-set inserts | 8 each | Four per cartridge, through the 3 mm cap and bearing cup to the cassette. CNC Kitchen M3 × 5.7 mm inserts fit Ø4.0 × 6.9 mm pockets with Ø3.3 mm through relief. |
+| M4 × 14 unflanged button-head screws and M4 heat-set inserts | 8 each | Four per cassette on Ø70 PCD. Use ruthex RX-M4Sx4.0 short inserts in the Ø5.6 × 7.4 mm pockets. The nominal 5.5 mm screw projection extends 1.5 mm past the brass into the pocket. |
 | 6805ZZ bearing | 4 | 25 × 37 × 7 mm, two per spindle. Fit against the selected bearing and verify both can turn freely. |
 | 25 mm external circlip | 2 | DIN 471 family. The CAD ring conservatively encloses the manufacturer's sprung diameter at the ears; it does not duplicate the purchased ear profile. |
 | J08 outer and J09 inner spacers | 2 each | Both 5 mm long. Outer Ø36.8/34.7; inner Ø27/25.1. Machine the two to closely matched lengths. |
 | J10 inner shim | 2 | Nominal 0.2 mm, OD 27, ID 25.1. Select thickness from actual assembled endplay. |
 | J06 spindle | 2 | Turn and drill aluminum. The narrow journal tolerance and the small horn screw access holes make this a machined part. |
 
-The missing harness shape, switch wiring, heat-set insert threads, table fastener lengths and final preload depend on the actual hardware. Install an unplugged XM430 from the rear of its loose cassette. Insert the bearing stack through the open front of its cup. The spindle enters from the front, the shim and circlip fit from the rear, and the front outer-race cap passes over the Ø33 mm output flange before the first arm link is fitted. The bracket provides at least 2.7 mm nominal body-side extraction clearance for the bare motor through the chest opening. Connector plugs, tubing corners and cable loops require a first-fit trial.
+**Identify the matching prints.** The four M3 cap screws lie on a Ø47 mm pitch circle. Their centers form a 23.50 × 40.70 mm rectangle in J03, J04 and J05. The former square pattern left very little material between two inserts and the motor. Replace these three prints as a set if upgrading an earlier build.
+
+**Measured insert clearance.** A solid-model check of the complete 5.7 mm installed length found at least 3.44 mm of radial plastic beyond the M3 insert’s Ø4.6 mm outer envelope, and 3.80 mm from that envelope to the XM430 case. On the torso, each flush-mounted Ø6.3 × 4.0 mm M4 insert has approximately 2.1 mm of radial plastic at the narrowest section of the bell. Gauge the first printed bell and follow the specified insert dimensions. The CAD clearance check does not measure pull-out strength. [CNC Kitchen insert dimensions](https://cnckitchen.com/s/CNCKitchen_Heat-Set-Insert-Dimensions-and-Design-Guidelines.pdf) · [Hardware buying guide](Hardware_buying_guide.md)
+
+The harness shape, table fastener lengths and bearing endplay depend on the physical build. Install an unplugged XM430 from the rear of its loose cassette. Assemble both bearings, both spacers, the shim and circlip on the spindle at the bench. Slide the retained spindle into the cup from its open front, small nose first. The outer-race cap slips over the Ø33 mm output flange before the first arm link is fitted. The bracket provides at least 2.7 mm nominal body-side extraction clearance for the bare motor through the chest opening. Connector plugs, tubing corners and cable loops require a first-fit trial.
 
 ## J06 spindle machining reference
 

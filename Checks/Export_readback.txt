@@ -7,3 +7,9 @@ The native FreeCAD document saved and reopened with all 115 component placements
 All 17 distinct production STL meshes reopened as single closed manifolds. Their volume differed from the corresponding analytic CAD solid by less than 0.6%. Individual printed part STEPs and custom stock STEPs passed single-solid validity and volume readback. Total print quantity is 28 pieces. Four identical mast sleeves share one stock file.
 
 The geometry used for assembly export and the whole-assembly collision check was matched across all 115 named occurrences using SHA-256. Nominal CAD file tolerances are independent of print, machining and servo manufacturing tolerances.
+
+Readback compared every changed J03 cassette, J04 socket, J05 cap, J12 button-head set and J14 cap screw set against the source solid in each applicable STEP and in the FreeCAD file. Each of the four bilateral J8 screw groups also matched its source volume and shank extent in all applicable STEP and FreeCAD downloads.
+
+The J8 case and trigger fasteners in each hand passed a per-hole check against the source palm, trigger and ROBOTIS servo geometry. See Grip_fastener_fit.csv for all 16 screw lands, shank lengths, pilot entries and working driver corridors.
+
+The revised J03/J04/J05 prints passed individual STEP and closed STL readback. The J1 stationary pair test and full-turn envelope test reproduced fixed_pair_intersections.csv and J1_full_turn_envelope.csv. The insert-wall, cap-screw alignment and J12/J15 head passage checks passed for the revised round shoulder. Physical insert pull-out, shaft fit and usable screw engagement still require a first article.

@@ -36,4 +36,6 @@ with (target/'Design'/'CAD_parts_and_quantities.csv').open('w') as out:
                 if check.isSolid() and not check.hasNonManifolds() and check.countComponents()==1 and abs(abs(check.Volume)-s.Volume)<.006*s.Volume:
                     break
             else: raise ValueError(('STL QA',name,check.isSolid(),check.hasNonManifolds(),check.countComponents()))
-        writer.writerow([part_id,len(items),kind,str(f.relative_to(target)),*[round(a,2) for a in (b.XLength,b.YLength,b.ZLength,s.Volume/1000)],p.get('material') or p.get('note','')]);print('Verified',kind,name,len(items),flush=True)
+        # Measure the exported surface. The loose control-point box can substantially overstate print size.
+        bounds=back.optimalBoundingBox(False)
+        writer.writerow([part_id,len(items),kind,str(f.relative_to(target)),*[round(a,2) for a in (bounds.XLength,bounds.YLength,bounds.ZLength,s.Volume/1000)],p.get('material') or p.get('note','')]);print('Verified',kind,name,len(items),flush=True)

@@ -109,8 +109,15 @@ def screw_set(pos,dir,r,under_h,head_r,head_h):
         shapes.append(Part.makeCylinder(r,under_h,v,d).fuse(Part.makeCylinder(head_r,head_h,v,-d)))
     return Part.Compound(shapes)
 J7fix=screw_set([(70+a,18.7,b) for a,b in ((6,0),(-6,0),(0,6),(0,-6))], (0,-1,0),1,6,1.9,1.7)
-casefix=screw_set([(x,y,-14.5) for x in (-15,15) for y in (2,18)],(0,0,1),1,8,1.85,1.8)
-trigfix=screw_set([(-7.5+a,10+b,18.5) for a,b in ((6,0),(-6,0),(0,6),(0,-6))],(0,0,-1),1,8,1.85,1.8)
+# The 3 mm palm seat plus the rear case's 4.5 mm entry leaves 2.5 mm in the pilot.
+casefix=screw_set([(x,y,-14.5) for x in (-15,15) for y in (2,18)],(0,0,1),1,10,1.85,1.8)
+# The 4 mm trigger land leaves 2 mm in the stock horn (3 mm maximum).
+trigfix=screw_set([(-7.5+a,10+b,18.5) for a,b in ((6,0),(-6,0),(0,6),(0,-6))],(0,0,-1),1,6,1.85,1.8)
+hardware_notes = {
+    'J7_grip_screws': '4 x 2 x 6 mm plastic tapping screws',
+    'J8_case_screws': '4 x 2 x 10 mm plastic tapping screws',
+    'J8_trigger_screws': '4 x 2 x 6 mm plastic tapping screws',
+}
 parts=[];info={}
 for side in ('left','right'):
     d=1 if side=='left' else -1
@@ -125,7 +132,7 @@ for side in ('left','right'):
         shape=canon(raw)
         path=out/(side+'_'+name+'.brep');shape.exportBrep(str(path))
         parts.append(dict(name=side.capitalize()+'_'+name,side=side,group=grp,kind=kind,path=str(path.relative_to(base)),
-                          hardware_notes='nominal screw envelope' if 'screws' in name else ''))
+                          hardware_notes=hardware_notes.get(name,'')))
     info[side.capitalize()]=dict(pivot=[27.75,-d*14.5,535.945],axis=[0,-1,0],home=0,limits=[0,30],palm_center=[-40.25,d*7.5,519.945])
 (base/'manifest.json').write_text(json.dumps({'parts':parts},indent=2))
 (base/'trigger.json').write_text(json.dumps(info,indent=2))

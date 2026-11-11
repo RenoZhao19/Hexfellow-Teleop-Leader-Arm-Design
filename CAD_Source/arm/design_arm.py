@@ -230,7 +230,7 @@ def export_motors():
             keep(f'M{j}_XM430_idler',j,'purchase',idle_disk.moved(q),{'mass_g':round(idle_disk.Volume()*0.0027,2),'vendor':'ROBOTIS rear idler envelope; mass estimated from nominal aluminum volume'})
         else:
             keep(f'M{j}_XC330_case',j-1,'purchase',fixed.moved(q),{'mass_g':22,'vendor':'ROBOTIS XC330-T288-T'})
-            keep(f'M{j}_XC330_horn',j,'purchase',horn.moved(q),{'mass_g':1,'vendor':'ROBOTIS HNX330-N101 and axial screw'})
+            keep(f'M{j}_XC330_horn',j,'purchase',horn.moved(q),{'mass_g':1,'vendor':'ROBOTIS stock plastic XC330 horn and factory axial screw'})
 
 if __name__=='__main__':
     keep('L1_Shoulder_neck',1,'print',cuts(assemble_shoulder(),port_envelopes(2)))

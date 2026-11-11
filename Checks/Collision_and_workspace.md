@@ -1,6 +1,6 @@
 # Collision and workspace checks
 
-The screen used all 115 component occurrences in the assembled CAD. File hashes identify the tested geometry. The working pose is left [90, 100, 90, 90, 0, 0, 0]° and right [−90, 100, −90, 90, 0, 0, 0]°. Each trigger is an eighth rotary degree of freedom. The checks below evaluate the assembly as nominal rigid solids. Operator fingers, loose cables, print errors, elastic deflection, and clearance for unrepresented hardware require a physical fit test.
+The 395-pose screen used the 115 CAD occurrences with the revised round-shoulder insert pattern, button heads at the torso and corrected J8 screw lengths. [Source geometry hashes](geometry_hashes.json) identify the solids used for this revision. The working pose is left [90, 100, 90, 90, 0, 0, 0]° and right [−90, 100, −90, 90, 0, 0, 0]°. Each trigger is an eighth rotary degree of freedom. The checks below evaluate the assembly as nominal rigid solids. Operator fingers, loose cables, print errors, elastic deflection, and clearance for unrepresented hardware require a physical fit test.
 
 ## Measured outcomes
 

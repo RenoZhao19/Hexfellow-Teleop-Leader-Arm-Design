@@ -12,11 +12,17 @@
 
 A tabletop, two-handed leader for teleoperating the Hexfellow MAVER X4 and its GP80 grippers. Each hand moves a seven-joint arm and squeezes a separate proportional trigger. Both arms and the spacing between their shoulders follow the Hexfellow joint geometry at 65% scale. The round shoulder sockets and curved links take their layout from the Nero demonstration. The hand design adapts FACTR’s published palm and trigger. [FACTR 2 Nero demonstration](https://jasonjzliu.com/factr2/) · [FACTR Hardware](https://github.com/JasonJZLiu/FACTR_Hardware) · [Hexfellow deployment URDF](https://github.com/ZiWang1105/hexfellow-deploy-106/blob/9ba8ea5f0aa7115a9d2f9b905c8a456904f92dd9/robot_resources/urdf/maver_x4_gp80.urdf)
 
+## Build the round-shoulder leader
+
+1. **Buy the hardware.** The buying guide lists each connection, its screw size and head, and the installed quantity for two arms. Check the motor kits before ordering duplicates. [Hardware buying guide](Design/Hardware_buying_guide.md)
+2. **Build the mast and one shoulder.** Follow the illustrated order for the motor cassette, two bearings, spacers, spindle, circlip and cap. Print J03, J04 and J05 from the same revision. The current cap holes form a **23.50 × 40.70 mm rectangle**. The earlier three prints used a square pattern. [Illustrated shoulder and mast assembly](Design/Shoulder_assembly.md)
+3. **Build the arm and hand.** Follow the joint order from the shoulder neck to the trigger. The rear of the trigger motor takes **four 2 × 10 mm** plastic tapping screws per hand. The trigger lever takes **four 2 × 6 mm**. [Arm assembly, J2–J8](Design/Arm_interfaces.md#assemble-one-arm) · [Hand and trigger](Design/FACTR_grip.md)
+
 ## What’s in the repository
 
 | Location | Contents |
 | --- | --- |
-| [Images](Images/) | Four CAD views of the assembled leader. |
+| [Images](Images/) | Four CAD views of the assembled leader and illustrated build details. |
 | [Assemblies](Assemblies/) | Whole station, individual left and right arms, released and squeezed grip close-ups, and the poseable FreeCAD model. |
 | [Parts/Printable_STL](Parts/Printable_STL/) | 17 unique printable designs. The bimanual assembly uses 28 printed pieces. |
 | [Parts/Printable_STEP](Parts/Printable_STEP/) | Individual solid models of those 17 designs for measuring and modifying mounting features. |

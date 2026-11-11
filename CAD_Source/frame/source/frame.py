@@ -140,11 +140,15 @@ def make_root():
     save(ROOT,'J02_XM430_horn',mot_pose(powered),'purchase',1)
     # The case enters the cartridge from its rear. Its two M2.5 screw heads are installed before the bearing cup.
     rear=unite(cyl(41,5.5),P.makeCone(41,39.2,3,V(0,0,5.5),Z))
-    card=polar(35,phase=45); cup_patt=polar(23.5,phase=45)
+    card=polar(35,phase=45)
+    # The rectangular cap pattern gives all four M3 inserts solid backing beside the motor pocket.
+    cup_patt=[(x, y) for x in (-11.75, 11.75)
+              for y in (-23.5 * math.sin(math.radians(60)), 23.5 * math.sin(math.radians(60)))]
     cuts=[rr(-12,0,47.2,29.2,1.1,-.1,5.6),cyl(11.60,5,z=5),cyl(1.38,6,-8,11,4),cyl(1.38,6,-8,-11,4)]
     cuts+=tap_holes(card,2.2,-1,10.5)
-    cuts+=tap_holes(cup_patt,2.075,2.9,5.7)
-    cuts+=tap_holes(cup_patt,1.6,1.6,1.5)
+    # Ø4.0 × 6.9 deep for CNC Kitchen M3 × 5.7. Through relief clears the M3 × 35 screw tip.
+    cuts+=tap_holes(cup_patt,2.0,1.6,7.0)
+    cuts+=tap_holes(cup_patt,1.65,-0.1,1.8)
     rear=cut(rear,*cuts)
     save(ROOT,'J03_Servo_cassette',rear,'print',material='PETG')
     cup=unite(P.makeCone(29,27,5,V(0,0,8.5),Z),cyl(27,20.5,z=13.5))
@@ -173,7 +177,7 @@ def make_root():
     # Combined fastener references use simple cylinders with nominal shank diameter; real threads engage pilot holes.
     def fasts(pattern,head_r,shank_r,headz,eng,hh):
         return P.Compound([unite(cyl(shank_r,eng,x,y,headz-eng),cyl(head_r,hh,x,y,headz)) for x,y in pattern])
-    save(ROOT,'J12_Cassette_M4x14',fasts(card,3.6,2,8.5,14,2.3),'purchase')
+    save(ROOT,'J12_Cassette_M4x14',fasts(card,3.8,2,8.5,14,2.2),'purchase')
     save(ROOT,'J13_Motor_case_M25x6',fasts([(-8,11),(-8,-11)],2.3,1.25,8.5,6,1.7),'purchase')
     save(ROOT,'J14_Bearing_cap_M3x35',fasts(cup_patt,2.8,1.5,37,35,3),'purchase')
     save(ROOT,'J15_Horn_M2x5',fasts(drive,1.9,1,10.5,5,2),'purchase',1)

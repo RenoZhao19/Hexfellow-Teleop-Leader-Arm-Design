@@ -39,8 +39,8 @@ Left,Left_FACTR_trigger,8,3.0882,4.6838,5.8913,4.60434,-15.55562,544.93718,publi
 Left,Left_J8_XC330_T288T_case,7,22.0,22.0,22.0,27.7549,-0.19959,528.41203,ROBOTIS XC330-T288 mass
 Left,Left_J8_XC330_T288T_horn,8,1.0,1.0,1.0,27.75,-12.48457,535.94196,servo case and moving horn contribute 23 g in total
 Left,Left_J7_grip_screws,7,1.1744,1.1973,1.2201,35.39673,0.0,458.445,steel item from solid volume
-Left,Left_J8_case_screws,7,1.3702,1.3969,1.4236,27.75,12.63174,528.445,steel item from solid volume
-Left,Left_J8_trigger_screws,8,1.3702,1.3969,1.4236,27.75,-16.63174,535.945,steel item from solid volume
+Left,Left_J8_case_screws,7,1.5637,1.5942,1.6246,27.75,11.74912,528.445,steel item from solid volume
+Left,Left_J8_trigger_screws,8,1.1767,1.1996,1.2225,27.75,-17.47574,535.945,steel item from solid volume
 Left,Unmodeled wire and small fixings allowance,1,0,3,6,9.75,0.0,94.445,distributed at seven downstream joints
 Left,Unmodeled wire and small fixings allowance,2,0,3,6,9.75,0.0,192.0,distributed at seven downstream joints
 Left,Unmodeled wire and small fixings allowance,3,0,3,6,9.75,0.0,286.52,distributed at seven downstream joints
@@ -88,8 +88,8 @@ Right,Right_FACTR_trigger,8,3.0882,4.6838,5.8913,4.60434,15.55562,544.93718,publ
 Right,Right_J8_XC330_T288T_case,7,22.0,22.0,22.0,27.7451,0.19959,528.41203,ROBOTIS XC330-T288 mass
 Right,Right_J8_XC330_T288T_horn,8,1.0,1.0,1.0,27.75,12.48457,535.94196,servo case and moving horn contribute 23 g in total
 Right,Right_J7_grip_screws,7,1.1744,1.1973,1.2201,35.39673,-0.0,458.445,steel item from solid volume
-Right,Right_J8_case_screws,7,1.3702,1.3969,1.4236,27.75,-12.63174,528.445,steel item from solid volume
-Right,Right_J8_trigger_screws,8,1.3702,1.3969,1.4236,27.75,16.63174,535.945,steel item from solid volume
+Right,Right_J8_case_screws,7,1.5637,1.5942,1.6246,27.75,-11.74912,528.445,steel item from solid volume
+Right,Right_J8_trigger_screws,8,1.1767,1.1996,1.2225,27.75,17.47574,535.945,steel item from solid volume
 Right,Unmodeled wire and small fixings allowance,1,0,3,6,9.75,0.0,94.445,distributed at seven downstream joints
 Right,Unmodeled wire and small fixings allowance,2,0,3,6,9.75,0.0,192.0,distributed at seven downstream joints
 Right,Unmodeled wire and small fixings allowance,3,0,3,6,9.75,0.0,286.52,distributed at seven downstream joints

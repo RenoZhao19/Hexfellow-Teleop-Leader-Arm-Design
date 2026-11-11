@@ -2,6 +2,10 @@
 
 Open **Assemblies/Bimanual_leader.step** in Fusion to inspect the complete assembly at its working pose. **Left_leader.step** and **Right_leader.step** in the same directory show each shoulder cartridge, arm and grip individually. All linear dimensions are in mm. The Nero demonstration supplied the visual reference. The Hexfellow deployment model supplied the joint axes, relative positions and travel limits.
 
+## Building the hardware
+
+Work through the [hardware buying guide](Design/Hardware_buying_guide.md), [illustrated mast and shoulder assembly](Design/Shoulder_assembly.md) and [arm assembly sequence](Design/Arm_interfaces.md#assemble-one-arm). J03, J04 and J05 use a matched rectangular cap-screw pattern. Use all three files from the same revision.
+
 ## Moving the CAD
 
 Open **Assemblies/Poseable_leader.FCStd** in FreeCAD. Expand **Left arm and trigger** or **Right arm and trigger**, then select the joint with the angle you want to change. In the Data tab, edit **JointAngle** in degrees. J1–J7 move the arm, and the **squeeze trigger** moves the finger lever. You can move both arms independently. The STEP overviews open as static assemblies in Fusion. The two grip-only STEP files show the endpoints in the same coordinate frame.

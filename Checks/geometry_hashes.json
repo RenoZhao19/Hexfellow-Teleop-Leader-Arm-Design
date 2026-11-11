@@ -93,37 +93,37 @@
   "side": "left",
   "name": "J03_Servo_cassette",
   "group": 0,
-  "sha256": "d6da82acaf8ae1ed39b14b724a84798dd3dff5a244d5746dfbf2ca20df531859"
+  "sha256": "0d2ec9ff9bbc39de48d73d7234878132f923337cfa1fe9120c1449ddc69b034a"
  },
  {
   "side": "right",
   "name": "J03_Servo_cassette",
   "group": 0,
-  "sha256": "d6da82acaf8ae1ed39b14b724a84798dd3dff5a244d5746dfbf2ca20df531859"
+  "sha256": "0d2ec9ff9bbc39de48d73d7234878132f923337cfa1fe9120c1449ddc69b034a"
  },
  {
   "side": "left",
   "name": "J04_Twin_bearing_socket",
   "group": 0,
-  "sha256": "b3c5867c8e62a6ede6bdb9c894d557911e57b8f8fe348cac26293868b9427f07"
+  "sha256": "7413df60d8b6c139e5bc35eb96fcbcc5a877598cf17b10988a6ee69f18b97b3a"
  },
  {
   "side": "right",
   "name": "J04_Twin_bearing_socket",
   "group": 0,
-  "sha256": "b3c5867c8e62a6ede6bdb9c894d557911e57b8f8fe348cac26293868b9427f07"
+  "sha256": "7413df60d8b6c139e5bc35eb96fcbcc5a877598cf17b10988a6ee69f18b97b3a"
  },
  {
   "side": "left",
   "name": "J05_Outer_race_cap",
   "group": 0,
-  "sha256": "c5804e9f1866c49b6c5d7054d7663174acc6aa6af79a04a2fd1f97bb8c36f8db"
+  "sha256": "1c763a018bac73761301b8eb11de6a59d049c81292847d50c95e6e3a5f71ea0e"
  },
  {
   "side": "right",
   "name": "J05_Outer_race_cap",
   "group": 0,
-  "sha256": "c5804e9f1866c49b6c5d7054d7663174acc6aa6af79a04a2fd1f97bb8c36f8db"
+  "sha256": "1c763a018bac73761301b8eb11de6a59d049c81292847d50c95e6e3a5f71ea0e"
  },
  {
   "side": "left",
@@ -213,13 +213,13 @@
   "side": "left",
   "name": "J12_Cassette_M4x14",
   "group": 0,
-  "sha256": "934817d8270700fb009696403ccc4308d777a6b6c867328dad57daebee2a0896"
+  "sha256": "37f342d7ba691d079d8d63f5618ea85ac361d7b035bb2b6961457a627b2d4a7e"
  },
  {
   "side": "right",
   "name": "J12_Cassette_M4x14",
   "group": 0,
-  "sha256": "934817d8270700fb009696403ccc4308d777a6b6c867328dad57daebee2a0896"
+  "sha256": "37f342d7ba691d079d8d63f5618ea85ac361d7b035bb2b6961457a627b2d4a7e"
  },
  {
   "side": "left",
@@ -237,13 +237,13 @@
   "side": "left",
   "name": "J14_Bearing_cap_M3x35",
   "group": 0,
-  "sha256": "3c224f32dc0124c52bbd34eeba4b0cba36472cdaff2756d981b3a4cec60ba33e"
+  "sha256": "bb0c7dbd9103774fe9cc102e3cea0d993d34f841592c140b0f438a3ac4d8b626"
  },
  {
   "side": "right",
   "name": "J14_Bearing_cap_M3x35",
   "group": 0,
-  "sha256": "3c224f32dc0124c52bbd34eeba4b0cba36472cdaff2756d981b3a4cec60ba33e"
+  "sha256": "bb0c7dbd9103774fe9cc102e3cea0d993d34f841592c140b0f438a3ac4d8b626"
  },
  {
   "side": "left",
@@ -639,13 +639,13 @@
   "side": "left",
   "name": "Left_J8_case_screws",
   "group": 7,
-  "sha256": "19ef1f28242b2e0a9e3e6b8183f445b79636588cde6f2e0d1810453d420839a3"
+  "sha256": "341ee7afcaf4e25ceccbb02297e38f85ff40d71e1d9895758fe6268d74ed60a6"
  },
  {
   "side": "left",
   "name": "Left_J8_trigger_screws",
   "group": 8,
-  "sha256": "3d890663c0b6291a2e4548c07d01a6bf3510d2d2b1501d8c6770a205f31e9095"
+  "sha256": "a7efd43928d04db85746fd7d804dd351598f593ddc2288dbc42e9d8024e63a4e"
  },
  {
   "side": "right",
@@ -681,12 +681,12 @@
   "side": "right",
   "name": "Right_J8_case_screws",
   "group": 7,
-  "sha256": "f54552b99cf07c44c930f8022b7d700f30a2fe783f5fc6d576a796dfbe99fe1c"
+  "sha256": "147f8c9b5189871866178e5702a1545b3904f08caa95fc202b391fb2a8891198"
  },
  {
   "side": "right",
   "name": "Right_J8_trigger_screws",
   "group": 8,
-  "sha256": "63a25517db217fdfd463fc0b86bf29bf353b3d6d47e2382985c6bf074dde87bf"
+  "sha256": "0b172fa585c2ebddd52ff80c874fca7ba374169b95f0553286cb075a99028b64"
  }
 ]
