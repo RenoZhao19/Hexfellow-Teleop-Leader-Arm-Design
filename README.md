@@ -1,6 +1,12 @@
 # Hexfellow Teleop Leader Arm Design
 
-![Assembled Hexfellow leader with two arms mounted to a central torso and tabletop mast](Assembly_overview.png)
+| Front | Rear |
+| --- | --- |
+| ![Front view of the bimanual leader and both orange triggers](Images/Leader_front.png) | ![Rear view of both arms and their shared mast](Images/Leader_rear.png) |
+
+| Three-quarter view | Side view |
+| --- | --- |
+| ![Angled view showing both forearms and trigger grips reaching forward](Images/Leader_three_quarter.png) | ![Side profile showing the shoulder, bent elbow, and trigger grip](Images/Leader_side.png) |
 
 ![FACTR-style finger trigger in its released and squeezed positions, from 0 to 30 degrees](Grip_travel.png)
 
@@ -10,6 +16,7 @@ A tabletop, two-handed leader for teleoperating the Hexfellow MAVER X4 and its G
 
 | Location | Contents |
 | --- | --- |
+| [Images](Images/) | Four CAD views of the assembled leader. |
 | [Assemblies](Assemblies/) | Whole station, individual left and right arms, released and squeezed grip close-ups, and the poseable FreeCAD model. |
 | [Parts/Printable_STL](Parts/Printable_STL/) | 17 unique printable designs. The bimanual assembly uses 28 printed pieces. |
 | [Parts/Printable_STEP](Parts/Printable_STEP/) | Individual solid models of those 17 designs for measuring and modifying mounting features. |
