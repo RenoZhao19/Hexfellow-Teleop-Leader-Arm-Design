@@ -96,16 +96,6 @@ def xc_last():
     # Vendor x -> arm z, y -> -y, z -> +x.
     return loc((32.75-6.5,0,Z6),Z,X)
 
-def assemble_shoulder():
-    foot=cyl((0,0,43),Z,16.7,5)
-    stem=loft([(0,0,47.4,10.7,10.7),(-0.5,0,51,9.5,8.5),
-               (-3,0,62,8.3,7.0),(-4,0,71,9,7.6),(C-16,0,Z2-17.7,14.2,8)])
-    s=union([foot,stem,xm_sole(Z2)])
-    points=[(12*math.cos(i*math.pi/2),12*math.sin(i*math.pi/2)) for i in range(4)]
-    tools=through4(points,42.8,52,1.68)+through4(points,48,70,3.0)
-    tools.append(cyl((0,0,42.9),Z,4.65,13))
-    return cuts(s,tools+xm_fixcuts(Z2))
-
 def pitch_fork(pitch,roll):
     """Two flared cheeks converge into the rear-mounted roll case cradle.
     The forward relief leaves a central inspection/cable window between cheeks.
@@ -233,7 +223,6 @@ def export_motors():
             keep(f'M{j}_XC330_horn',j,'purchase',horn.moved(q),{'mass_g':1,'vendor':'ROBOTIS stock plastic XC330 horn and factory axial screw'})
 
 if __name__=='__main__':
-    keep('L1_Shoulder_neck',1,'print',cuts(assemble_shoulder(),port_envelopes(2)))
     for group,pitch,roll,stem in [(2,Z2,Z3,'Upper'),(4,Z4,Z5,'Elbow')]:
         main,removable=pitch_fork(pitch,roll)
         keep(f'L{group}_{stem}_fork',group,'print',cuts(main,port_envelopes(group+1)))

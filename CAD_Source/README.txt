@@ -1,13 +1,43 @@
-Editable geometry sources
+Rebuild the external-drum Hexfellow leader
 
-The supplied STEP, STL and FreeCAD files open independently of these source scripts. This folder is for someone changing the design parameters or regenerating solids. It contains CAD generation code only.
+The published STEP, STL and FreeCAD files open directly. The scripts in this
+directory rebuild their geometry from the two original ROBOTIS actuator
+assemblies and the supplied FACTR handle and trigger. The vendor filenames,
+download pages and SHA-256 digests are in arm/vendor/Required_input_files.txt.
+The FACTR license and attribution are in the repository's Design directory.
 
-The unchanged FACTR source handle and trigger STEP files in grip/ are inputs to the adapted hand generator. The full attribution and Apache License 2.0 are in the package's Design directory. Download the matching ROBOTIS originals under arm/vendor as described in Required_input_files.txt before regeneration.
+Run these commands from CAD_Source. "python" below has CadQuery 2.7, NumPy
+and SciPy. "/usr/bin/python3" is the Debian interpreter for FreeCAD's Part,
+Mesh and MeshPart modules. On another system use the interpreter and library
+path for your OpenCascade/FreeCAD installation. All CAD dimensions are mm.
 
-Use CadQuery 2.7 with numpy and scipy for the arm, geometry composition and STEP exchange, and a Python interpreter with FreeCAD Part, Mesh and MeshPart for the frame, grip and native FreeCAD assembly. The source layout used Debian FreeCAD with /usr/lib/freecad/lib on its Python path. Set that path appropriately for another installation.
+  python arm/design_arm.py
+  /usr/bin/python3 grip/build.py
+  /usr/bin/python3 frame/source/frame.py
+  python frame/source/rotating_shoulder.py
+  python integration/compose.py
 
-Regenerate arm/design_arm.py, frame/source/frame.py and grip/build.py first. They write the component manifests and solids. Run integration/compose.py next to assemble the checked geometric data. Then run integration/export_parts.py, export_assemblies.py, poseable.py and grip_views.py with the matching interpreter. Outputs go under CAD_Source/dist/Hexfellow_Nero_Leader. Recheck attachment holes, kinematics, interference, trigger travel and load estimates after geometry edits. The included verification results apply to the supplied revision.
+frame.py makes the torso, foot, drilled mast, spacer sleeves and pin hardware,
+then invokes fixed_shoulder.py to make the external drum and partition the
+actual X430 model into its fixed case and rotating horn. rotating_shoulder.py
+makes the faceplate, J2 saddle and their screws and nuts. Each generator writes
+its own intermediate solids and manifest. compose.py places each occurrence
+in the same coordinate frame as the released bimanual STEP. The release pose
+uses the default joint angles in compose.py. If experimenting with a local
+integration/posture.json, remove it to reproduce the released pose.
 
-To reproduce Checks/Grip_fastener_fit.csv, run grip/check_grip_fasteners.py with the FreeCAD interpreter after generating the grip BReps. It writes Grip_fastener_fit.csv in grip/.
+  /usr/bin/python3 frame/source/check_shoulder_fasteners.py
+  /usr/bin/python3 grip/check_grip_fasteners.py
+  /usr/bin/python3 integration/export_parts.py
+  python integration/export_assemblies.py
+  /usr/bin/python3 integration/poseable.py
+  python integration/grip_views.py
 
-After rebuilding the frame, run frame/source/check_shoulder_fasteners.py with the FreeCAD interpreter. It checks the material around the selected heat-set inserts, the cap-screw passages and tool access for the specified shoulder fasteners.
+The export directory is dist/Hexfellow_External_Drum_Leader. export_parts.py checks the
+printable meshes and writes the part inventory. export_assemblies.py verifies
+names, solid counts, volumes and placements after STEP reimport. poseable.py
+reopens the generated native assembly and exercises J1, J2, J4 and J8 on both
+arms. Open Assemblies/Poseable_leader.FCStd and edit the JointAngle property
+of a joint to inspect movement. Each side STEP contains that arm's components
+at assembly coordinates. See Checks in the repository for the scope of the
+geometry checks, and the installation and purchasing guides for hardware.

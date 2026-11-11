@@ -1,12 +1,4 @@
 Side,Nominal CAD component or allowance,Moving group,Light mass g,Nominal mass g,Heavy mass g,Reference/assumed CoM x mm,y mm,z mm,Assumption
-Left,J02_XM430_horn,1,1.8756,1.9182,1.9892,-0.0,0.0,7.06992,aluminum drive horn in fixed shoulder motor
-Left,J06_Shouldered_output_spindle,1,39.1616,40.2039,41.693,0.0,0.0,27.84919,aluminum stock
-Left,J09_Inner_spacer,1,1.0224,1.0496,1.0885,0.0,-0.0,24.5,aluminum stock
-Left,J10_Inner_thrust_shim,1,0.1197,0.1221,0.1244,-0.0,-0.0,14.9,steel item from solid volume
-Left,J11_25mm_circlip_envelope,1,4.5021,4.5898,4.6775,0.0,-0.45961,14.2,steel item from solid volume
-Left,J15_Horn_M2x5,1,1.1824,1.2055,1.2285,0.0,-0.0,10.06792,steel item from solid volume
-Left,J16_Outboard_flange_M3x10,1,4.3724,4.4576,4.5427,-0.0,0.0,46.26349,steel item from solid volume
-Left,L1_Shoulder_neck,1,6.0279,9.8533,14.3742,-2.8087,0.13981,60.81796,assumed printed polymer effective density
 Left,L2_Upper_fork,2,7.3581,12.0277,17.5463,11.61255,-6.74912,140.3604,assumed printed polymer effective density
 Left,L2_Upper_service_cheek,2,2.1614,3.5331,5.1541,11.75816,23.2846,110.42544,assumed printed polymer effective density
 Left,L4_Elbow_fork,4,6.3097,10.314,15.0463,11.40275,-7.53794,325.85645,assumed printed polymer effective density
@@ -41,6 +33,12 @@ Left,Left_J8_XC330_T288T_horn,8,1.0,1.0,1.0,27.75,-12.48457,535.94196,servo case
 Left,Left_J7_grip_screws,7,1.1744,1.1973,1.2201,35.39673,0.0,458.445,steel item from solid volume
 Left,Left_J8_case_screws,7,1.5637,1.5942,1.6246,27.75,11.74912,528.445,steel item from solid volume
 Left,Left_J8_trigger_screws,8,1.1767,1.1996,1.2225,27.75,-17.47574,535.945,steel item from solid volume
+Left,J1_XM430_drive_horn,1,1.8756,1.9182,1.9892,-0.0,0.0,52.56992,aluminum drive horn in fixed shoulder motor
+Left,J1_Rotating_faceplate,1,12.4014,20.2715,29.5726,-0.06361,0.0,56.10489,assumed printed polymer effective density
+Left,J1_J2_Swept_motor_saddle,1,14.402,23.5418,34.3433,-2.92325,0.28671,68.66444,assumed printed polymer effective density
+Left,J1_Horn_drive_screws_M2x6,1,1.1805,1.2035,1.2264,0.0,-0.0,56.20797,steel item from solid volume
+Left,J1_Saddle_screws_M3x10,1,3.0617,3.1214,3.181,-11.33333,0.0,60.98874,steel item from solid volume
+Left,J1_Saddle_captive_nuts_M3,1,1.0605,1.0812,1.1018,-11.33333,-0.0,55.8,steel item from solid volume
 Left,Unmodeled wire and small fixings allowance,1,0,3,6,9.75,0.0,94.445,distributed at seven downstream joints
 Left,Unmodeled wire and small fixings allowance,2,0,3,6,9.75,0.0,192.0,distributed at seven downstream joints
 Left,Unmodeled wire and small fixings allowance,3,0,3,6,9.75,0.0,286.52,distributed at seven downstream joints
@@ -48,14 +46,6 @@ Left,Unmodeled wire and small fixings allowance,4,0,3,6,9.75,0.0,373.0,distribut
 Left,Unmodeled wire and small fixings allowance,5,0,3,6,9.75,0.0,458.445,distributed at seven downstream joints
 Left,Unmodeled wire and small fixings allowance,6,0,3,6,32.75,0.0,458.445,distributed at seven downstream joints
 Left,Unmodeled wire and small fixings allowance,7,0,3,6,27.75,-14.5,535.945,distributed at seven downstream joints
-Right,J02_XM430_horn,1,1.8756,1.9182,1.9892,-0.0,0.0,7.06992,aluminum drive horn in fixed shoulder motor
-Right,J06_Shouldered_output_spindle,1,39.1616,40.2039,41.693,0.0,0.0,27.84919,aluminum stock
-Right,J09_Inner_spacer,1,1.0224,1.0496,1.0885,0.0,-0.0,24.5,aluminum stock
-Right,J10_Inner_thrust_shim,1,0.1197,0.1221,0.1244,-0.0,-0.0,14.9,steel item from solid volume
-Right,J11_25mm_circlip_envelope,1,4.5021,4.5898,4.6775,0.0,-0.45961,14.2,steel item from solid volume
-Right,J15_Horn_M2x5,1,1.1824,1.2055,1.2285,0.0,-0.0,10.06792,steel item from solid volume
-Right,J16_Outboard_flange_M3x10,1,4.3724,4.4576,4.5427,-0.0,0.0,46.26349,steel item from solid volume
-Right,L1_Shoulder_neck,1,6.0279,9.8533,14.3742,-2.8087,0.13981,60.81796,assumed printed polymer effective density
 Right,L2_Upper_fork,2,7.3581,12.0277,17.5463,11.61255,-6.74912,140.3604,assumed printed polymer effective density
 Right,L2_Upper_service_cheek,2,2.1614,3.5331,5.1541,11.75816,23.2846,110.42544,assumed printed polymer effective density
 Right,L4_Elbow_fork,4,6.3097,10.314,15.0463,11.40275,-7.53794,325.85645,assumed printed polymer effective density
@@ -90,6 +80,12 @@ Right,Right_J8_XC330_T288T_horn,8,1.0,1.0,1.0,27.75,12.48457,535.94196,servo cas
 Right,Right_J7_grip_screws,7,1.1744,1.1973,1.2201,35.39673,-0.0,458.445,steel item from solid volume
 Right,Right_J8_case_screws,7,1.5637,1.5942,1.6246,27.75,-11.74912,528.445,steel item from solid volume
 Right,Right_J8_trigger_screws,8,1.1767,1.1996,1.2225,27.75,17.47574,535.945,steel item from solid volume
+Right,J1_XM430_drive_horn,1,1.8756,1.9182,1.9892,-0.0,0.0,52.56992,aluminum drive horn in fixed shoulder motor
+Right,J1_Rotating_faceplate,1,12.4014,20.2715,29.5726,-0.06361,0.0,56.10489,assumed printed polymer effective density
+Right,J1_J2_Swept_motor_saddle,1,14.402,23.5418,34.3433,-2.92325,0.28671,68.66444,assumed printed polymer effective density
+Right,J1_Horn_drive_screws_M2x6,1,1.1805,1.2035,1.2264,0.0,-0.0,56.20797,steel item from solid volume
+Right,J1_Saddle_screws_M3x10,1,3.0617,3.1214,3.181,-11.33333,0.0,60.98874,steel item from solid volume
+Right,J1_Saddle_captive_nuts_M3,1,1.0605,1.0812,1.1018,-11.33333,-0.0,55.8,steel item from solid volume
 Right,Unmodeled wire and small fixings allowance,1,0,3,6,9.75,0.0,94.445,distributed at seven downstream joints
 Right,Unmodeled wire and small fixings allowance,2,0,3,6,9.75,0.0,192.0,distributed at seven downstream joints
 Right,Unmodeled wire and small fixings allowance,3,0,3,6,9.75,0.0,286.52,distributed at seven downstream joints

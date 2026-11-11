@@ -1,15 +1,33 @@
-Frozen CAD exchange and manufacturing geometry checks
+External-drum leader — release CAD readback
 
-The full STEP reimported with 115 named component occurrences. Each isolated arm reimported with 52. The two trigger endpoint STEP files reimported with seven occurrences each. A component occurrence can contain several standard screws or sub-solids. Reimported whole and single-arm STEP centroids differed from their intended transformed solid centroids by less than 0.00014 mm.
+Assemblies/Bimanual_leader.step is the approved review assembly. Its SHA-256 is
+ab4b90fc1f760ef0ff2cdfc7d0d8a5169189c34f33811b70e5320a0568340cf7.
+The STEP reopened with 101 named occurrences and 469 solids. The frame has 11
+occurrences and each arm has 45. Both individual arm STEPs reopened with 45
+named occurrences and 223 solids each. For the full station and each arm, the
+solid count within every occurrence matched its source. The largest transformed
+centroid difference was 0.000138 mm, rounded up.
 
-The native FreeCAD document saved and reopened with all 115 component placements intact. Editing both elbow joints and both trigger joints independently moved their downstream solids in the reopened document.
+Grip_released.step and Grip_squeezed.step use a common left-grip frame with the
+J8 axis through the origin. Each reopened with seven named occurrences. Compared
+with the released hand geometry rotated to 0 and 30 degrees respectively, the
+largest occurrence centroid difference was 0.000138 mm, rounded up.
 
-All 17 distinct production STL meshes reopened as single closed manifolds. Their volume differed from the corresponding analytic CAD solid by less than 0.6%. Individual printed part STEPs and custom stock STEPs passed single-solid validity and volume readback. Total print quantity is 28 pieces. Four identical mast sleeves share one stock file.
+Poseable_leader.FCStd reopened with all 101 component placements intact. Moving
+each of the 16 joint-angle properties individually by 6 degrees moved downstream
+geometry. The opposite arm, frame and components upstream of that joint stayed
+within 0.00001 mm of their starting positions. Restoring each angle returned all
+101 sampled component vertices to within 0.00001 mm of their nominal positions.
 
-The geometry used for assembly export and the whole-assembly collision check was matched across all 115 named occurrences using SHA-256. Nominal CAD file tolerances are independent of print, machining and servo manufacturing tolerances.
+All 16 printable STEP files and both stock STEP files reopened as single valid
+solids. Their volumes matched the assembled source solids to within 0.000083%
+using OCCT adaptive volume integration. All 16 STLs reopened as single closed
+manifold meshes. The largest mesh volume difference from its corresponding STEP
+was 0.302%, rounded up, on L5_Forearm_bone.
 
-Readback compared every changed J03 cassette, J04 socket, J05 cap, J12 button-head set and J14 cap screw set against the source solid in each applicable STEP and in the FreeCAD file. Each of the four bilateral J8 screw groups also matched its source volume and shank extent in all applicable STEP and FreeCAD downloads.
-
-The J8 case and trigger fasteners in each hand passed a per-hole check against the source palm, trigger and ROBOTIS servo geometry. See Grip_fastener_fit.csv for all 16 screw lands, shank lengths, pilot entries and working driver corridors.
-
-The revised J03/J04/J05 prints passed individual STEP and closed STL readback. The J1 stationary pair test and full-turn envelope test reproduced fixed_pair_intersections.csv and J1_full_turn_envelope.csv. The insert-wall, cap-screw alignment and J12/J15 head passage checks passed for the revised round shoulder. Physical insert pull-out, shaft fit and usable screw engagement still require a first article.
+For one bimanual build the parts inventory calls for 26 printed pieces and five
+metal stock pieces. Four identical 36 mm mast sleeves use the same stock file.
+The remaining 70 CAD occurrences include the 16 actuators and grouped hardware.
+Use Design/Hardware_buying_guide.md for physical fastener and accessory counts.
+The XM430 model represents the output center envelope as part of its driven horn.
+The factory center screw and thrust washer have no separate CAD occurrences.

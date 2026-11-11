@@ -1,13 +1,12 @@
 """Build a self-contained, expression-driven mechanical assembly in FreeCAD."""
-import json,re,sys,zipfile
-from pathlib import Path
+import json, sys
+from release_paths import WORK, RELEASE
 sys.path.append('/usr/lib/freecad/lib')
 import FreeCAD as A,Part
 V=A.Vector
-root=Path(__file__).resolve().parents[1]
-scene=json.loads((root/'integration'/'scene.json').read_text())
-dest=root/'dist'/'Hexfellow_Nero_Leader'/'Assemblies'/'Poseable_leader.FCStd'
-doc=A.newDocument('Nero_reference_Hexfellow_leader')
+scene=json.loads((WORK/'scene.json').read_text())
+dest=RELEASE/'Assemblies'/'Poseable_leader.FCStd'
+doc=A.newDocument('Hexfellow_External_Drum_Leader')
 fixed=doc.addObject('App::Part','Torso')
 fixed.Label='Torso and table mount'
 parents={}; joints={};expect={}
@@ -58,7 +57,7 @@ back=A.openDocument(str(dest));back.recompute()
 for n,reference in expect.items():
     assert (world_pt(back.getObject(n))-reference).Length<1e-4
 for side in scene['arms']:
-    for number in (4,8):
+    for number in (1,2,4,8):
         node=back.getObject(f'{side}J{number}')
         descendants=[o for o in node.Group if o.TypeId=='Part::Feature']
         assert len(descendants)>0
@@ -68,5 +67,5 @@ for side in scene['arms']:
         motion=max((world_pt(o)-v).Length for o,v in zip(descendants,before))
         assert motion>.01, (side,number,motion)
         node.JointAngle=angle;back.recompute()
-print('Restored',len(expect),'nominal component placements after reopen; both J4 and both trigger joints moved independently in CAD.')
+print('Restored',len(expect),'nominal component placements after reopen; both J1, J2, J4 and trigger joints moved independently in CAD.')
 A.closeDocument(back.Name)

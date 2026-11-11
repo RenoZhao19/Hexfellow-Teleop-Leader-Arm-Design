@@ -11,6 +11,7 @@ CAD_Source/arm/vendor/*.step
 CAD_Source/integration/scene.json
 CAD_Source/arm/manifest.json
 CAD_Source/frame/manifest.json
-CAD_Source/frame/root_manifest.json
+CAD_Source/frame/fixed/
+CAD_Source/frame/rotating/
 CAD_Source/grip/manifest.json
 CAD_Source/grip/trigger.json

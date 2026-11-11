@@ -1,52 +1,89 @@
-"""Write colored STEP assemblies from the checked occurrences and verify the interchange."""
-import json,re,sys
+"""Export the full and individual arm STEP files and round-trip their instances and placements."""
+import json
 from functools import lru_cache
 from pathlib import Path
 import cadquery as cq
 import numpy as np
 from OCP.gp import gp_Trsf
-from compose import RELEASE,WORK
-rows=json.loads((WORK/'scene.json').read_text())['parts']
+
+from compose import RELEASE, WORK
 
 @lru_cache(None)
-def brep(path):
-    shape=cq.Shape.importBrep(path)
-    if not shape.Solids():
-        raise ValueError(path)
-    return shape
+def shape(path):
+    value=cq.Shape.importBrep(path)
+    assert value.Solids(), path
+    return value
 
-def location(matrix):
-    m=np.array(matrix)
-    assert np.allclose(m[:3,:3].T @ m[:3,:3],np.eye(3))
-    t=gp_Trsf()
-    t.SetValues(*m[:3,:].flatten())
-    return cq.Location(t)
+def as_loc(matrix):
+    m=np.asarray(matrix)
+    assert np.allclose(m[:3,:3].T@m[:3,:3],np.eye(3))
+    assert np.isclose(np.linalg.det(m[:3,:3]),1)
+    trsf=gp_Trsf()
+    trsf.SetValues(*m[:3,:].ravel())
+    return cq.Location(trsf)
 
-def color(p):
-    if 'trigger' in p['local_name'].lower() and p['kind']=='print':
-        return cq.Color(0.94,0.51,0.20)
-    rgb={'print':(0.25,0.30,0.33),'stock':(0.57,0.60,0.62),'purchase':(0.39,0.40,0.41)}[p['kind']]
-    return cq.Color(*rgb)
+def colour(p):
+    name=p['local_name'].lower()
+    if p['kind']=='print':
+        if 'trigger' in name:return '#E97725'
+        if p.get('external_shoulder') and p['group']==1 and any(s in name for s in ('faceplate','face_plate','rotating_plate','drive_plate','rotor_plate')):return '#B86E3C'
+        if p.get('external_shoulder') and p['group']==0:return '#41474C'
+        return '#383E42' if p['side']=='Frame' else '#3B4449'
+    if 'insert' in name:return '#B99355'
+    if p['kind']=='stock':return '#9CA2A6'
+    if any(s in name for s in ('horn','idler')) and 'screw' not in name:return '#7B8287'
+    if any(s in name for s in ('case','xm430','xc330')) and not any(s in name for s in ('screw','bolt','fastener','mount_')):return '#3D454A'
+    return '#70777C'
 
-for assembly,selection in {'Bimanual_leader':rows,'Left_leader':[p for p in rows if p['side']=='Left'],'Right_leader':[p for p in rows if p['side']=='Right']}.items():
-    target=RELEASE/'Assemblies'/(assembly+'.step')
-    a=cq.Assembly(name=assembly)
-    for p in selection:
-        name=re.sub('[^a-zA-Z0-9_]+','_',p['name'])
-        a.add(brep(p['path']),name=name,color=color(p),loc=location(p['matrix']))
-    a.export(str(target))
-    back=cq.Assembly.load(str(target))
-    entities=list(back)
-    assert len(entities)==len(selection),(assembly,len(entities),len(selection))
-    originals={re.sub('[^a-zA-Z0-9_]+','_',p['name']):p for p in selection}
-    errors=[]
-    for shape,full_name,loc,_ in entities:
-        item=originals[full_name.split('/')[-1]]
-        expected=brep(item['path']).Center().toTuple()
-        world=np.array(item['matrix'])@np.array([*expected,1.0])
-        actual=np.array(shape.moved(loc).Center().toTuple())
-        errors.append(np.linalg.norm(world[:3]-actual))
-    worst=max(errors)
-    if worst>.03:raise ValueError((assembly,'STEP centroid errors',worst))
-    print(f'{assembly} maximum imported centroid error {worst:.6g} mm',flush=True)
-    print(assembly,len(selection),target.stat().st_size,flush=True)
+def subgroup(p):
+    if p['side']=='Frame':return 'Frame_and_mast'
+    if p.get('external_shoulder') or p['local_name'].startswith(('M2_XM430','F1_Exterior','L2_Upper')):return p['side']+'_shoulder'
+    if p['group']>=7:return p['side']+'_grip'
+    return p['side']+'_arm'
+
+def build(rows, target, name):
+    top=cq.Assembly(name=name)
+    groups={}
+    for row in rows:
+        group=subgroup(row)
+        if group not in groups:groups[group]=cq.Assembly(name=group)
+        groups[group].add(shape(row['path']), name=row['name'],loc=as_loc(row['matrix']),color=cq.Color(colour(row)))
+    for child in groups.values():top.add(child)
+    top.export(str(target))
+
+def verify(rows, target):
+    loaded=cq.Assembly.load(str(target))
+    parts_by_name={p['name']:p for p in rows}
+    occurrences=list(loaded)
+    assert len(occurrences)==len(rows)
+    largest=0.
+    seen=set()
+    for item,pathname,loc,color in occurrences:
+        name=pathname.split('/')[-1]
+        assert name not in seen,pathname
+        # OCCT restores a multipart purchased component's appearance on its constituent solids.
+        if len(item.Solids())==1:assert color is not None,pathname
+        seen.add(name)
+        row=parts_by_name[name]
+        original=shape(row['path']); m=np.asarray(row['matrix'])
+        expect=m@np.array([*original.Center().toTuple(),1.])
+        returned=item.moved(loc)
+        error=np.linalg.norm(expect[:3]-np.array(returned.Center().toTuple()))
+        largest=max(largest,error)
+        assert len(item.Solids())==len(original.Solids()),name
+        assert abs(item.Volume()-original.Volume())<max(.2,1e-4*abs(original.Volume())),name
+        assert error<.02,(name,error)
+    assert seen==set(parts_by_name)
+    print('Round-trip verified',len(seen),'named occurrences. Maximum centroid drift',largest,'mm. Bytes',target.stat().st_size,flush=True)
+
+if __name__ == '__main__':
+    parts = json.loads((WORK/'scene.json').read_text())['parts']
+    assemblies = (
+        ('Bimanual_leader', 'Hexfellow_External_Drum_Leader', parts),
+        ('Left_leader', 'Left_leader', [p for p in parts if p['side'] == 'Left']),
+        ('Right_leader', 'Right_leader', [p for p in parts if p['side'] == 'Right']),
+    )
+    for filename, label, rows in assemblies:
+        target = RELEASE/'Assemblies'/(filename+'.step')
+        build(rows, target, label)
+        verify(rows, target)

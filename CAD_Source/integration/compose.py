@@ -1,11 +1,10 @@
-"""Compose the Nero-inspired bimanual leader from independently authored mechanical CAD."""
+"""Compose the external-drum bimanual leader from its frame, shoulders, arms and grips."""
 import json
 from pathlib import Path
 import numpy as np
 from geometry import PIVOTS, SHAFTS, LIMITS, fk
-ROOT=Path(__file__).resolve().parents[1]
-WORK=ROOT/'integration'
-RELEASE=ROOT/'dist'/'Hexfellow_Nero_Leader'
+from release_paths import ROOT, WORK, RELEASE
+
 HOME={'Left':[90,100,90,90,0,0,0], 'Right':[-90,100,-90,90,0,0,0]}
 
 def readlist(manfile):
@@ -13,8 +12,10 @@ def readlist(manfile):
     rows=data if isinstance(data,list) else data['parts']
     for part in rows:
         row=part.copy()
-        options=[manfile.parent/row['path'], ROOT/row['path'],Path(row['path'])]
-        row['path']=str(next(p for p in options if p.is_file()).resolve())
+        path=manfile.parent/row['path']
+        if not path.is_file():
+            raise FileNotFoundError(path)
+        row['path']=str(path.resolve())
         row['name']=str(row['name'])
         row['group']=int(row.get('group',0))
         if row.get('kind') not in ['print','stock','purchase']:
@@ -26,7 +27,7 @@ def compose():
         (RELEASE/sub).mkdir(parents=True,exist_ok=True)
     frame=list(readlist(ROOT/'frame'/'manifest.json'))
     canonical=[]
-    for name in ['frame/root_manifest','arm/manifest','grip/manifest']:
+    for name in ['arm/manifest','grip/manifest','frame/fixed/manifest','frame/rotating/manifest']:
         canonical.extend(readlist(ROOT/(name+'.json')))
     trigger=json.loads((ROOT/'grip'/'trigger.json').read_text())
     posefile=WORK/'posture.json'

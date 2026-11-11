@@ -1,6 +1,6 @@
 # Design references
 
-The two shoulder sockets, torso arch, upper-arm and forearm links use the FACTR 2 Nero demonstration as a visual reference. The project page presents Nero in the NEXT force-feedback demonstrations. The software repository's 96-path tree at commit `0df02c5b26e33911078152b6c587d6e8a160d279` has no Nero-labelled directories or STEP/STL arm parts. Its documented hardware example is Piper/GELLO. The photo establishes the general layout. The Hexfellow URDF and purchased servo dimensions establish the dimensions of this prototype.
+The FACTR 2 Nero demonstration is the visual reference for the bimanual layout. The fixed external drum, factory-horn faceplate and removable J2 saddle in this release are this project's own shoulder design. The team’s Hexfellow URDF supplies the kinematic reference and the ROBOTIS drawings supply the actuator interfaces.
 
 - [FACTR 2 Nero demonstration](https://jasonjzliu.com/factr2/)
 - [NEXT repository at inspected revision](https://github.com/philiphan0109/factr2_next/tree/0df02c5b26e33911078152b6c587d6e8a160d279)
