@@ -2,7 +2,9 @@ Rebuild the external-drum Hexfellow leader
 
 The published STEP, STL and FreeCAD files open directly. The scripts in this
 directory rebuild their geometry from the two original ROBOTIS actuator
-assemblies and the supplied FACTR handle and trigger. The vendor filenames,
+assemblies and the supplied FACTR handle and trigger. The input named XC330.step is
+the ROBOTIS XL330/XC330 casing and horn drawing.
+The included hardware guide uses the XL330-M288-T. The vendor filenames,
 download pages and SHA-256 digests are in arm/vendor/Required_input_files.txt.
 The FACTR license and attribution are in the repository's Design directory.
 
@@ -29,6 +31,7 @@ integration/posture.json, remove it to reproduce the released pose.
   /usr/bin/python3 frame/source/check_shoulder_fasteners.py
   /usr/bin/python3 grip/check_grip_fasteners.py
   /usr/bin/python3 integration/export_parts.py
+  /usr/bin/python3 arm/check_case_pads.py dist/Hexfellow_External_Drum_Leader/Parts/Printable_STEP
   python integration/export_assemblies.py
   /usr/bin/python3 integration/poseable.py
   python integration/grip_views.py

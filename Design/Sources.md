@@ -16,13 +16,13 @@ The separate FACTR Hardware repository is the public Franka leader. Each hand ha
 
 ## Motors and frame drawings
 
-ROBOTIS supplies the dimensional models for checking the purchased components. The specified XM430-W210-T and XC330-T288-T support current control and position readback. At 12 V the vendor lists stall torques of 3.0 and 1.0 N·m respectively. The US product pages list estimated continuous torques of 0.60 N·m for XM430 at 12 V and 0.184 N·m for XC330-T288 at 11.1 V. Hardware thermal duty and sustained feedback need a loaded test. XC330-M181-T shares the external envelope but requires 3.7–6.0 V (5.0 V recommended). A common 12 V harness would overvoltage M181 units.
+ROBOTIS supplies the X330 external CAD geometry used to check the rear-case and stock-horn mounting interfaces. Some component identifiers in the files originate from the earlier XC330 model. The small servos in this build are **XL330-M288-T**, 20 × 34 × 26 mm and 18 g. ROBOTIS lists current control, current-based position control and encoder readback. At the recommended 5 V the listed stall torque is 0.52 N·m. Sustained force feedback requires a loaded prototype test. The XM430-W210-T uses a separate 12 V rail. Check the label before wiring. The XL330 accepts 3.7–6.0 V.
 
-- [ROBOTIS XC330-T288-T specifications](https://emanual.robotis.com/docs/en/dxl/x/xc330-t288/)
+- [ROBOTIS XL330-M288-T specifications, controls and drawings](https://emanual.robotis.com/docs/en/dxl/x/xl330-m288/)
+- [ROBOTIS XL330-M288-T kit contents](https://robotis.us/products/dynamixel-xl330-m288-t)
 - [ROBOTIS XM430-W210 specifications](https://emanual.robotis.com/docs/en/dxl/x/xm430-w210/)
-- [ROBOTIS XC330-M181-T specifications](https://emanual.robotis.com/docs/en/dxl/x/xc330-m181/)
 - [ROBOTIS estimated continuous torque for XM430](https://robotis.us/products/dynamixel-xm430-w210-t)
-- [ROBOTIS estimated continuous torque for XC330](https://robotis.us/products/dynamixel-xc330-t288-t)
+- [Earlier XC330-T288-T design reference](https://emanual.robotis.com/docs/en/dxl/x/xc330-t288/)
 - [Manufacturer STEP for XM430/XH430 with horn and idler](https://www.robotis.com/service/download.php?no=158)
 - [Manufacturer STEP for XL/XC330](https://www.robotis.com/service/download.php?no=1987)
 - [Manufacturer STEP for the original FACTR gripper's FPX330-S102 bracket](https://www.robotis.com/service/download.php?no=2025)

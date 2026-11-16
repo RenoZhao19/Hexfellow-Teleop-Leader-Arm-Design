@@ -1,7 +1,8 @@
 External-drum leader — release CAD readback
 
-Assemblies/Bimanual_leader.step is the approved review assembly. Its SHA-256 is
-ab4b90fc1f760ef0ff2cdfc7d0d8a5169189c34f33811b70e5320a0568340cf7.
+Assemblies/Bimanual_leader.step contains the 3.00 mm small-servo rear mounting
+pads. SHA-256 of the published full-station STEP:
+4fca65cdd59c8be93973bbb4550dd9ab0ce9d4d6b421b8f2a02e8e30ce2d1a6d.
 The STEP reopened with 101 named occurrences and 469 solids. The frame has 11
 occurrences and each arm has 45. Both individual arm STEPs reopened with 45
 named occurrences and 223 solids each. For the full station and each arm, the
@@ -23,7 +24,16 @@ All 16 printable STEP files and both stock STEP files reopened as single valid
 solids. Their volumes matched the assembled source solids to within 0.000083%
 using OCCT adaptive volume integration. All 16 STLs reopened as single closed
 manifold meshes. The largest mesh volume difference from its corresponding STEP
-was 0.302%, rounded up, on L5_Forearm_bone.
+was 0.311%, rounded up, on L5_Forearm_bone.
+
+The four rear-case screw bores in each of L2_Upper_fork, L4_Elbow_fork,
+L5_Forearm_bone and L6_Wrist_saddle measure 3.000 mm through the pad in both
+the source solids and the standalone released STEPs. All 16 bores retain the
+16 × 30 mm rectangular pattern. Four measurements per pad taken on the flat
+strip outside the screw head pockets also read 3.000 mm in the STEP and STL
+exports. The bare-case model
+seats against each revised part with zero solid overlap. Check screw engagement
+and stiffness on the actual print and XL330-M288-T.
 
 For one bimanual build the parts inventory calls for 26 printed pieces and five
 metal stock pieces. Four identical 36 mm mast sleeves use the same stock file.

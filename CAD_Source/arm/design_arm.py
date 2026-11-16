@@ -14,6 +14,10 @@ Z=(0,0,1)
 X=(1,0,0)
 Y=(0,1,0)
 PARTS=[]
+# In the supplier's XL/XC330 frame, the flat back of the case is at z = -19.5.
+SMALL_CASE_FACE_Z = -19.5
+SMALL_CASE_PAD_THICKNESS = 3.0
+SMALL_CASE_SCREW_SEAT_Z = SMALL_CASE_FACE_Z - SMALL_CASE_PAD_THICKNESS
 
 def loc(origin,xdir,normal):
     return cq.Plane(origin=origin,xDir=xdir,normal=normal).location
@@ -68,11 +72,11 @@ def xm_fixcuts(pitch):
     return screws+wrench
 
 def xc_back_native():
-    return plate_xy((0,-7.5),-23.7,24.,37.5,4.2,3.0)
+    return plate_xy((0,-7.5),SMALL_CASE_SCREW_SEAT_Z,24.,37.5,SMALL_CASE_PAD_THICKNESS,3.0)
 
 def xc_back_tools():
     points=[(x,y) for x in (-8.,8.) for y in (-22.5,7.5)]
-    return through4(points,-65,-19,1.15)+through4(points,-65,-23.7,2.35)+[cyl((0,0,-45),Z,4.65,26)]
+    return through4(points,-65,-19,1.15)+through4(points,-65,SMALL_CASE_SCREW_SEAT_Z,2.35)+[cyl((0,0,-45),Z,4.65,26)]
 
 def xc_face_native(thickness=4.2):
     return cyl((0,0,6.5),Z,10.7,thickness)
@@ -100,7 +104,9 @@ def pitch_fork(pitch,roll):
     """Two flared cheeks converge into the rear-mounted roll case cradle.
     The forward relief leaves a central inspection/cable window between cheeks.
     """
+    # Keep the pitch-fork loft and split cheek at their released stations.
     end=roll-30.2
+    case_pad_back=roll-6.5+SMALL_CASE_SCREW_SEAT_Z
     cheeks=[]
     tools=[]
     for sign in (-1,1):
@@ -114,7 +120,12 @@ def pitch_fork(pitch,roll):
               (C+5.1,sign*20.5,pitch+.71*h,7.0,4.3),
               (C+1.5,sign*9.5-2.3,pitch+.90*h,8.2,5.7),
               (C,sign*4.3-4,end+1.0,9.7,7.7)]
-        cheeks+=[disk,loft(rows)]
+        # Continue just the rib cross-section to the back of the thinner plate.
+        # The short neck sits inside the footprint of the previous 4.2 mm pad.
+        rib_tip = (C,sign*4.3-4,end+1.0)
+        tip_wire = cq.Wire.makeEllipse(9.7,7.7,rib_tip,Z,X)
+        neck = cq.Solid.extrudeLinear(tip_wire,[],(0,0,case_pad_back-rib_tip[2]+0.3))
+        cheeks.extend((disk,loft(rows),neck))
         for a in (45,135,225,315):
             dx,dz=8*math.cos(math.radians(a)),8*math.sin(math.radians(a))
             tools.append(cyl((C+dx,sign*18.5,pitch+dz),(0,sign,0),1.13,12.5))
@@ -209,6 +220,7 @@ def export_motors():
     body0=original[0].cut(front_tool,rear_tool).clean()
     xm_core=cq.Compound.makeCompound([body0]+original[1:])
     assert abs(xm_core.Volume()+drive_disk.Volume()+idle_disk.Volume()-xm.Volume())<.005
+    # ROBOTIS supplies a common XL330 / XC330 mechanical STEP.
     xc=cq.importers.importStep(str(HERE/'vendor/XC330.step')).val().Solids()
     # Optional XC rear idler is omitted because all XC case mounts are rear plates.
     fixed=cq.Compound.makeCompound([s for i,s in enumerate(xc) if i not in (3,9,10,11,12)])
@@ -219,8 +231,8 @@ def export_motors():
             keep(f'M{j}_XM430_drive_horn',j,'purchase',drive_disk.moved(q),{'mass_g':2,'vendor':'ROBOTIS HN12-N101 supplied horn; allocated share of motor mass'})
             keep(f'M{j}_XM430_idler',j,'purchase',idle_disk.moved(q),{'mass_g':round(idle_disk.Volume()*0.0027,2),'vendor':'ROBOTIS rear idler envelope; mass estimated from nominal aluminum volume'})
         else:
-            keep(f'M{j}_XC330_case',j-1,'purchase',fixed.moved(q),{'mass_g':22,'vendor':'ROBOTIS XC330-T288-T'})
-            keep(f'M{j}_XC330_horn',j,'purchase',horn.moved(q),{'mass_g':1,'vendor':'ROBOTIS stock plastic XC330 horn and factory axial screw'})
+            keep(f'M{j}_XC330_case',j-1,'purchase',fixed.moved(q),{'mass_g':17,'vendor':'ROBOTIS XL330-M288-T'})
+            keep(f'M{j}_XC330_horn',j,'purchase',horn.moved(q),{'mass_g':1,'vendor':'ROBOTIS stock plastic XL330 horn and factory axial screw'})
 
 if __name__=='__main__':
     for group,pitch,roll,stem in [(2,Z2,Z3,'Upper'),(4,Z4,Z5,'Elbow')]:

@@ -1,4 +1,4 @@
-"""Adapt the public FACTR handle/trigger and rotate a real XC330-T288-T for either hand.
+"""Adapt the public FACTR handle/trigger and place the shared XL330/XC330 mechanical model for either hand.
 
 Run using system Python with FreeCAD installed. All intrinsic sketches are millimeters,
 in the published gripper handle coordinate system. Output BReps use the robot's

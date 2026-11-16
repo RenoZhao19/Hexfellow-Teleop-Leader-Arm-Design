@@ -15,7 +15,7 @@
   "side": "frame",
   "name": "F03_Square_mast_40x40x2_L453",
   "group": 0,
-  "sha256": "f01ab17070b98c4d2f3a7a82b5d7d84a923b69e9e6d39916b68a4667edb88c7d"
+  "sha256": "b50e7af6424da8bc56af1d5c54b35a4b17b5970f9724df39b774ef7d19baaaf5"
  },
  {
   "side": "frame",
@@ -33,13 +33,13 @@
   "side": "frame",
   "name": "F04_Mast_sleeve_3",
   "group": 0,
-  "sha256": "9e0b9b4f4d474da4eb4e41b317d891c139552021c2cba040ac70350ccdf291c7"
+  "sha256": "868bfe0d45b42e4c42b07403bd62202064a971c1239d3c2e90943dc977362b1b"
  },
  {
   "side": "frame",
   "name": "F04_Mast_sleeve_4",
   "group": 0,
-  "sha256": "f541575d0c168a0cef81bd39036675be42c67379ff9c8b88de5d23774435029b"
+  "sha256": "a610040b69339b70950924fb5d9cd9c85b7d77f455d4a21d02395607fee0a7bf"
  },
  {
   "side": "frame",
@@ -57,37 +57,37 @@
   "side": "frame",
   "name": "F05_M6x65_post_pin_3",
   "group": 0,
-  "sha256": "53dea25a5bd3a5436664ef4bd3842759a2608bff13edca6a814507dd32144375"
+  "sha256": "44b31d7b3ac9b6483107052402919e0a36f84f5b1f2b676430f28fc22f49bcc0"
  },
  {
   "side": "frame",
   "name": "F05_M6x65_post_pin_4",
   "group": 0,
-  "sha256": "9f91fc3dced75282070d1fe245d7ee5948df36414aa11e041ff6f42a4ecd163e"
+  "sha256": "cf7e2602d88a8d86885fe2f1cb461d4590432fb005161d75a4ba5184191ec3ad"
  },
  {
   "side": "left",
   "name": "L2_Upper_fork",
   "group": 2,
-  "sha256": "b5498b202aec8cf692b244395c373bb538f7feff03e6512a0631e95358e30511"
+  "sha256": "61ce6f5f6b0c7e69b373206bcd7435a2ae53d7b346062ff3cc5f81e6dc7a8942"
  },
  {
   "side": "left",
   "name": "L2_Upper_service_cheek",
   "group": 2,
-  "sha256": "80d474d26b9615b0a8bed64943ef24f5598350a772690783228bd9432c7ca11e"
+  "sha256": "40b56f102f05e9c7e7791f2939c48bdcc67265c95fdb6a64bd32b134f0e516fb"
  },
  {
   "side": "left",
   "name": "L4_Elbow_fork",
   "group": 4,
-  "sha256": "6725f90d34423253abe42e15fe14264af44ec29f9c331f64badfb9f38f62d929"
+  "sha256": "b177271e097a3ac22a9e83cf7043bb4c0b4a6e6cb2afd583590fdcf2387fc219"
  },
  {
   "side": "left",
   "name": "L4_Elbow_service_cheek",
   "group": 4,
-  "sha256": "5ff7ada20ff876935eb3dd40b50d91e5d6a4599324dd67eeee84dc5474ca81fc"
+  "sha256": "e1bc3f96d5b7d1b9c7647596c45935af27c65c3bd01eb19b2bc8f8cb41d8a9da"
  },
  {
   "side": "left",
@@ -99,13 +99,13 @@
   "side": "left",
   "name": "L5_Forearm_bone",
   "group": 5,
-  "sha256": "5a252faca2cbffa30f51415b4d6086be19047b51744386db210b8b51fb15d12a"
+  "sha256": "c2021d2d88b277c17cdd35de0abd6abe9e8f6921a025d8eb719389952a1f8c85"
  },
  {
   "side": "left",
   "name": "L6_Wrist_saddle",
   "group": 6,
-  "sha256": "1e89d43a70490c0882ed64bba372115a2904a94895e5f45d88d96645bd12de83"
+  "sha256": "62b7b43739be571bed22ca0271bf467af5b9893d1a58dbd409e805a4ae6cb857"
  },
  {
   "side": "left",
@@ -201,7 +201,7 @@
   "side": "left",
   "name": "F2_Exterior_fasteners",
   "group": 2,
-  "sha256": "19a7062158ad618a813ef0e221c3316adf3a192ad66a86b7387baafa5a68da5f"
+  "sha256": "afdfd39a30980cb0ec43801b17f26f31b2cfbfe17f4a62531ad8d2b8f02bf835"
  },
  {
   "side": "left",
@@ -213,19 +213,19 @@
   "side": "left",
   "name": "F4_Exterior_fasteners",
   "group": 4,
-  "sha256": "f9132bb6281e5297aa79abb1735ee129c7e3072362c82e045d739a687ae594bb"
+  "sha256": "665c7d980280a5da0218a85e650e0dc8c18fe9a2011594b38c8a30b4d2a2db83"
  },
  {
   "side": "left",
   "name": "F5_Exterior_fasteners",
   "group": 5,
-  "sha256": "764791b76dad987bcb07af7c724ebe49a0e1f82c10acd9323c2514317ac115e3"
+  "sha256": "62ffeef59c48c52c84b5fd77813815c39a5c7664cf2dd384ca37f0e1f2fe4dbd"
  },
  {
   "side": "left",
   "name": "F6_Exterior_fasteners",
   "group": 6,
-  "sha256": "e0cd5e846f480beb974c62e402a0a891fd8f9abb6be78a76899e961516e1e775"
+  "sha256": "8d8ce0ef3ababd8bf27cafa25f83a452568680238595ee499f8cec07cf306343"
  },
  {
   "side": "left",
@@ -270,210 +270,6 @@
   "sha256": "a7efd43928d04db85746fd7d804dd351598f593ddc2288dbc42e9d8024e63a4e"
  },
  {
-  "side": "right",
-  "name": "L2_Upper_fork",
-  "group": 2,
-  "sha256": "b5498b202aec8cf692b244395c373bb538f7feff03e6512a0631e95358e30511"
- },
- {
-  "side": "right",
-  "name": "L2_Upper_service_cheek",
-  "group": 2,
-  "sha256": "80d474d26b9615b0a8bed64943ef24f5598350a772690783228bd9432c7ca11e"
- },
- {
-  "side": "right",
-  "name": "L4_Elbow_fork",
-  "group": 4,
-  "sha256": "6725f90d34423253abe42e15fe14264af44ec29f9c331f64badfb9f38f62d929"
- },
- {
-  "side": "right",
-  "name": "L4_Elbow_service_cheek",
-  "group": 4,
-  "sha256": "5ff7ada20ff876935eb3dd40b50d91e5d6a4599324dd67eeee84dc5474ca81fc"
- },
- {
-  "side": "right",
-  "name": "L3_Upper_bone",
-  "group": 3,
-  "sha256": "c7f12e98b105e04d78cd923523ddf5e9fc49ff4cbd5b519df6fc2cc1c07a8f0d"
- },
- {
-  "side": "right",
-  "name": "L5_Forearm_bone",
-  "group": 5,
-  "sha256": "5a252faca2cbffa30f51415b4d6086be19047b51744386db210b8b51fb15d12a"
- },
- {
-  "side": "right",
-  "name": "L6_Wrist_saddle",
-  "group": 6,
-  "sha256": "1e89d43a70490c0882ed64bba372115a2904a94895e5f45d88d96645bd12de83"
- },
- {
-  "side": "right",
-  "name": "M2_XM430_case",
-  "group": 1,
-  "sha256": "a71deb02f6edd8fd2c2f4cb8c835d58d29f9c1e16e88c8960a0c00c4066eae55"
- },
- {
-  "side": "right",
-  "name": "M2_XM430_drive_horn",
-  "group": 2,
-  "sha256": "c430013de8a464b273c14d8bd70df290ed39c1c45cc09508719b3220b0c9efdc"
- },
- {
-  "side": "right",
-  "name": "M2_XM430_idler",
-  "group": 2,
-  "sha256": "c7c5a46687c1e1aeb23f89ae006e3cecd6133d715e7e2d38218e18543dea4fd3"
- },
- {
-  "side": "right",
-  "name": "M3_XC330_case",
-  "group": 2,
-  "sha256": "673e0b15a55ca8c2fa12dec527cf8e10a8d39a4bd3f25abc62364dee70576261"
- },
- {
-  "side": "right",
-  "name": "M3_XC330_horn",
-  "group": 3,
-  "sha256": "1e8577abd2dc5d34c759bdcc635ffb3e54b36125223a4c3030992558809a71e6"
- },
- {
-  "side": "right",
-  "name": "M4_XM430_case",
-  "group": 3,
-  "sha256": "99aad7903f095abb326de02b3ab3f88ce328eaa5c2e2a87146bea72174816768"
- },
- {
-  "side": "right",
-  "name": "M4_XM430_drive_horn",
-  "group": 4,
-  "sha256": "36c8c58d5c8a88695eff1d944375cdf5bf1725a547c56de96036bfc710675632"
- },
- {
-  "side": "right",
-  "name": "M4_XM430_idler",
-  "group": 4,
-  "sha256": "bcdab32293c2faf6327640d779303c592ccae1904bd7c3bb4394dd1c5663cdc6"
- },
- {
-  "side": "right",
-  "name": "M5_XC330_case",
-  "group": 4,
-  "sha256": "8779bac4486f8cb7f28ecc0eb6d2a9f43f99bf47f8418cc850ad969c6366ab84"
- },
- {
-  "side": "right",
-  "name": "M5_XC330_horn",
-  "group": 5,
-  "sha256": "fd50057fab3ad904e12de75e045dcb96b9c2171eebe1ee067b2036a2d430416b"
- },
- {
-  "side": "right",
-  "name": "M6_XC330_case",
-  "group": 5,
-  "sha256": "4e0c66436244f33eeb5770182dc8c816983f54b34141f197bd9a8d4c00ebf0c8"
- },
- {
-  "side": "right",
-  "name": "M6_XC330_horn",
-  "group": 6,
-  "sha256": "cb8fc0d0202192bb365f85e104bb980992e50196afa0c858fc2bab13302ac963"
- },
- {
-  "side": "right",
-  "name": "M7_XC330_case",
-  "group": 6,
-  "sha256": "6b94796a2129edba9e7a3142a4ce44c8f0b1c14bbec95599efca5d600f38bae6"
- },
- {
-  "side": "right",
-  "name": "M7_XC330_horn",
-  "group": 7,
-  "sha256": "db354b13a8de525c17f80f4b7e9f62dfafab66a62902a544a7683bf5961bcee8"
- },
- {
-  "side": "right",
-  "name": "F1_Exterior_fasteners",
-  "group": 1,
-  "sha256": "91f38b3ff9951f297e28da828b72cdba9f14a48927c3b9e85c238fe367140b0f"
- },
- {
-  "side": "right",
-  "name": "F2_Exterior_fasteners",
-  "group": 2,
-  "sha256": "19a7062158ad618a813ef0e221c3316adf3a192ad66a86b7387baafa5a68da5f"
- },
- {
-  "side": "right",
-  "name": "F3_Exterior_fasteners",
-  "group": 3,
-  "sha256": "cbd26d41efa1f9cedcd382e8b69cd0a30243b7528d0d760812458d6aba53c6b3"
- },
- {
-  "side": "right",
-  "name": "F4_Exterior_fasteners",
-  "group": 4,
-  "sha256": "f9132bb6281e5297aa79abb1735ee129c7e3072362c82e045d739a687ae594bb"
- },
- {
-  "side": "right",
-  "name": "F5_Exterior_fasteners",
-  "group": 5,
-  "sha256": "764791b76dad987bcb07af7c724ebe49a0e1f82c10acd9323c2514317ac115e3"
- },
- {
-  "side": "right",
-  "name": "F6_Exterior_fasteners",
-  "group": 6,
-  "sha256": "e0cd5e846f480beb974c62e402a0a891fd8f9abb6be78a76899e961516e1e775"
- },
- {
-  "side": "right",
-  "name": "Right_FACTR_palm",
-  "group": 7,
-  "sha256": "23a5866f5cafc855426e85f3961967e8429ee264693534c88bf33c73ec86b87b"
- },
- {
-  "side": "right",
-  "name": "Right_FACTR_trigger",
-  "group": 8,
-  "sha256": "535cea936400fc20d2d26c31729bb860a65cc935e4899490db9a9425dc942403"
- },
- {
-  "side": "right",
-  "name": "Right_J8_XC330_T288T_case",
-  "group": 7,
-  "sha256": "cd9bd64f361365a6dec6e60b60178a48b8b435a0183e3084a76923b0fcc3c401"
- },
- {
-  "side": "right",
-  "name": "Right_J8_XC330_T288T_horn",
-  "group": 8,
-  "sha256": "aeebd5e0b397fe4a1d89c62c8b810dfc737bbbd9e37ff4cf551f8ac4ddeaa171"
- },
- {
-  "side": "right",
-  "name": "Right_J7_grip_screws",
-  "group": 7,
-  "sha256": "13d1892d457fa4855267948ce4f4727008199630279a1497a0cf98c46494fe50"
- },
- {
-  "side": "right",
-  "name": "Right_J8_case_screws",
-  "group": 7,
-  "sha256": "147f8c9b5189871866178e5702a1545b3904f08caa95fc202b391fb2a8891198"
- },
- {
-  "side": "right",
-  "name": "Right_J8_trigger_screws",
-  "group": 8,
-  "sha256": "0b172fa585c2ebddd52ff80c874fca7ba374169b95f0553286cb075a99028b64"
- },
- {
   "side": "left",
   "name": "J1_Fixed_external_drum",
   "group": 0,
@@ -483,13 +279,13 @@
   "side": "left",
   "name": "J1_XM430_fixed_case",
   "group": 0,
-  "sha256": "e0394e2ec348795d462d8f0d4ce1069850dbf89f57fc91bd0650532c835984ef"
+  "sha256": "6e00c2c72bebc6f162a32480eb8f625c6b1669a500dc06b907e0a86317b7bedb"
  },
  {
   "side": "left",
   "name": "J1_XM430_drive_horn",
   "group": 1,
-  "sha256": "d868b76994c36acb440b57d9f302e6890534d5dcd2f0844241fb2aa5df171cbf"
+  "sha256": "b5b2d46c518e1f46c08a22a7f55bbd036568e2f67d01b95fcc3f2696efd0a4a8"
  },
  {
   "side": "left",
@@ -541,6 +337,210 @@
  },
  {
   "side": "right",
+  "name": "L2_Upper_fork",
+  "group": 2,
+  "sha256": "61ce6f5f6b0c7e69b373206bcd7435a2ae53d7b346062ff3cc5f81e6dc7a8942"
+ },
+ {
+  "side": "right",
+  "name": "L2_Upper_service_cheek",
+  "group": 2,
+  "sha256": "40b56f102f05e9c7e7791f2939c48bdcc67265c95fdb6a64bd32b134f0e516fb"
+ },
+ {
+  "side": "right",
+  "name": "L4_Elbow_fork",
+  "group": 4,
+  "sha256": "b177271e097a3ac22a9e83cf7043bb4c0b4a6e6cb2afd583590fdcf2387fc219"
+ },
+ {
+  "side": "right",
+  "name": "L4_Elbow_service_cheek",
+  "group": 4,
+  "sha256": "e1bc3f96d5b7d1b9c7647596c45935af27c65c3bd01eb19b2bc8f8cb41d8a9da"
+ },
+ {
+  "side": "right",
+  "name": "L3_Upper_bone",
+  "group": 3,
+  "sha256": "c7f12e98b105e04d78cd923523ddf5e9fc49ff4cbd5b519df6fc2cc1c07a8f0d"
+ },
+ {
+  "side": "right",
+  "name": "L5_Forearm_bone",
+  "group": 5,
+  "sha256": "c2021d2d88b277c17cdd35de0abd6abe9e8f6921a025d8eb719389952a1f8c85"
+ },
+ {
+  "side": "right",
+  "name": "L6_Wrist_saddle",
+  "group": 6,
+  "sha256": "62b7b43739be571bed22ca0271bf467af5b9893d1a58dbd409e805a4ae6cb857"
+ },
+ {
+  "side": "right",
+  "name": "M2_XM430_case",
+  "group": 1,
+  "sha256": "a71deb02f6edd8fd2c2f4cb8c835d58d29f9c1e16e88c8960a0c00c4066eae55"
+ },
+ {
+  "side": "right",
+  "name": "M2_XM430_drive_horn",
+  "group": 2,
+  "sha256": "c430013de8a464b273c14d8bd70df290ed39c1c45cc09508719b3220b0c9efdc"
+ },
+ {
+  "side": "right",
+  "name": "M2_XM430_idler",
+  "group": 2,
+  "sha256": "c7c5a46687c1e1aeb23f89ae006e3cecd6133d715e7e2d38218e18543dea4fd3"
+ },
+ {
+  "side": "right",
+  "name": "M3_XC330_case",
+  "group": 2,
+  "sha256": "673e0b15a55ca8c2fa12dec527cf8e10a8d39a4bd3f25abc62364dee70576261"
+ },
+ {
+  "side": "right",
+  "name": "M3_XC330_horn",
+  "group": 3,
+  "sha256": "1e8577abd2dc5d34c759bdcc635ffb3e54b36125223a4c3030992558809a71e6"
+ },
+ {
+  "side": "right",
+  "name": "M4_XM430_case",
+  "group": 3,
+  "sha256": "99aad7903f095abb326de02b3ab3f88ce328eaa5c2e2a87146bea72174816768"
+ },
+ {
+  "side": "right",
+  "name": "M4_XM430_drive_horn",
+  "group": 4,
+  "sha256": "36c8c58d5c8a88695eff1d944375cdf5bf1725a547c56de96036bfc710675632"
+ },
+ {
+  "side": "right",
+  "name": "M4_XM430_idler",
+  "group": 4,
+  "sha256": "bcdab32293c2faf6327640d779303c592ccae1904bd7c3bb4394dd1c5663cdc6"
+ },
+ {
+  "side": "right",
+  "name": "M5_XC330_case",
+  "group": 4,
+  "sha256": "8779bac4486f8cb7f28ecc0eb6d2a9f43f99bf47f8418cc850ad969c6366ab84"
+ },
+ {
+  "side": "right",
+  "name": "M5_XC330_horn",
+  "group": 5,
+  "sha256": "fd50057fab3ad904e12de75e045dcb96b9c2171eebe1ee067b2036a2d430416b"
+ },
+ {
+  "side": "right",
+  "name": "M6_XC330_case",
+  "group": 5,
+  "sha256": "4e0c66436244f33eeb5770182dc8c816983f54b34141f197bd9a8d4c00ebf0c8"
+ },
+ {
+  "side": "right",
+  "name": "M6_XC330_horn",
+  "group": 6,
+  "sha256": "cb8fc0d0202192bb365f85e104bb980992e50196afa0c858fc2bab13302ac963"
+ },
+ {
+  "side": "right",
+  "name": "M7_XC330_case",
+  "group": 6,
+  "sha256": "6b94796a2129edba9e7a3142a4ce44c8f0b1c14bbec95599efca5d600f38bae6"
+ },
+ {
+  "side": "right",
+  "name": "M7_XC330_horn",
+  "group": 7,
+  "sha256": "db354b13a8de525c17f80f4b7e9f62dfafab66a62902a544a7683bf5961bcee8"
+ },
+ {
+  "side": "right",
+  "name": "F1_Exterior_fasteners",
+  "group": 1,
+  "sha256": "91f38b3ff9951f297e28da828b72cdba9f14a48927c3b9e85c238fe367140b0f"
+ },
+ {
+  "side": "right",
+  "name": "F2_Exterior_fasteners",
+  "group": 2,
+  "sha256": "afdfd39a30980cb0ec43801b17f26f31b2cfbfe17f4a62531ad8d2b8f02bf835"
+ },
+ {
+  "side": "right",
+  "name": "F3_Exterior_fasteners",
+  "group": 3,
+  "sha256": "cbd26d41efa1f9cedcd382e8b69cd0a30243b7528d0d760812458d6aba53c6b3"
+ },
+ {
+  "side": "right",
+  "name": "F4_Exterior_fasteners",
+  "group": 4,
+  "sha256": "665c7d980280a5da0218a85e650e0dc8c18fe9a2011594b38c8a30b4d2a2db83"
+ },
+ {
+  "side": "right",
+  "name": "F5_Exterior_fasteners",
+  "group": 5,
+  "sha256": "62ffeef59c48c52c84b5fd77813815c39a5c7664cf2dd384ca37f0e1f2fe4dbd"
+ },
+ {
+  "side": "right",
+  "name": "F6_Exterior_fasteners",
+  "group": 6,
+  "sha256": "8d8ce0ef3ababd8bf27cafa25f83a452568680238595ee499f8cec07cf306343"
+ },
+ {
+  "side": "right",
+  "name": "Right_FACTR_palm",
+  "group": 7,
+  "sha256": "23a5866f5cafc855426e85f3961967e8429ee264693534c88bf33c73ec86b87b"
+ },
+ {
+  "side": "right",
+  "name": "Right_FACTR_trigger",
+  "group": 8,
+  "sha256": "535cea936400fc20d2d26c31729bb860a65cc935e4899490db9a9425dc942403"
+ },
+ {
+  "side": "right",
+  "name": "Right_J8_XC330_T288T_case",
+  "group": 7,
+  "sha256": "cd9bd64f361365a6dec6e60b60178a48b8b435a0183e3084a76923b0fcc3c401"
+ },
+ {
+  "side": "right",
+  "name": "Right_J8_XC330_T288T_horn",
+  "group": 8,
+  "sha256": "aeebd5e0b397fe4a1d89c62c8b810dfc737bbbd9e37ff4cf551f8ac4ddeaa171"
+ },
+ {
+  "side": "right",
+  "name": "Right_J7_grip_screws",
+  "group": 7,
+  "sha256": "13d1892d457fa4855267948ce4f4727008199630279a1497a0cf98c46494fe50"
+ },
+ {
+  "side": "right",
+  "name": "Right_J8_case_screws",
+  "group": 7,
+  "sha256": "147f8c9b5189871866178e5702a1545b3904f08caa95fc202b391fb2a8891198"
+ },
+ {
+  "side": "right",
+  "name": "Right_J8_trigger_screws",
+  "group": 8,
+  "sha256": "0b172fa585c2ebddd52ff80c874fca7ba374169b95f0553286cb075a99028b64"
+ },
+ {
+  "side": "right",
   "name": "J1_Fixed_external_drum",
   "group": 0,
   "sha256": "c00e9cf2ddc973ada3402b7270d3ee55fae55676f3c82d78bb55388f2a6f2588"
@@ -549,13 +549,13 @@
   "side": "right",
   "name": "J1_XM430_fixed_case",
   "group": 0,
-  "sha256": "e0394e2ec348795d462d8f0d4ce1069850dbf89f57fc91bd0650532c835984ef"
+  "sha256": "6e00c2c72bebc6f162a32480eb8f625c6b1669a500dc06b907e0a86317b7bedb"
  },
  {
   "side": "right",
   "name": "J1_XM430_drive_horn",
   "group": 1,
-  "sha256": "d868b76994c36acb440b57d9f302e6890534d5dcd2f0844241fb2aa5df171cbf"
+  "sha256": "b5b2d46c518e1f46c08a22a7f55bbd036568e2f67d01b95fcc3f2696efd0a4a8"
  },
  {
   "side": "right",

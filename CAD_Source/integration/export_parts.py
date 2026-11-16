@@ -22,9 +22,9 @@ def purchase_note(part):
     if re.fullmatch(r'F[1-6]_Exterior_fasteners', name):
         return 'Each occurrence groups the fasteners at one arm interface. See Design/Hardware_buying_guide.md for individual order quantities.'
     if name.endswith(('XC330_horn', 'J8_XC330_T288T_horn')):
-        return 'ROBOTIS stock plastic XC330 horn and factory axial screw'
+        return 'ROBOTIS stock plastic XL330-M288-T horn and factory axial screw'
     if name.endswith('J8_XC330_T288T_case'):
-        return 'ROBOTIS XC330-T288-T'
+        return 'ROBOTIS XL330-M288-T (legacy CAD identifier)'
     shoulder = {
         'J1_XM430_fixed_case': 'ROBOTIS XM430-W210-T',
         'J1_XM430_drive_horn': 'ROBOTIS HN12-N101 driven horn and factory retainer',

@@ -9,7 +9,7 @@ def hardware_groups(a):
     def xc_screws(j,t):
         for x in (-8.,8.):
             for y in (-22.5,7.5):
-                groups[j-1].append(envelope((x,y,-23.7),(0,0,-1),2.15,1.7).moved(t))
+                groups[j-1].append(envelope((x,y,a.SMALL_CASE_SCREW_SEAT_Z),(0,0,-1),2.15,1.7).moved(t))
         if j!=7:
             for x,y in [(6,0),(0,6),(-6,0),(0,-6)]:
                 groups[j].append(envelope((x,y,10.7),a.Z,2.15,1.7).moved(t))
